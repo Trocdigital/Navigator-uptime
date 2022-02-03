@@ -1,7 +1,7 @@
-url: https://navdata.mobileinsight.com
-status: down
-code: 404
-responseTime: 173
-lastUpdated: 2022-02-03T01:30:13.412Z
+url: https://navdata.trocglobal.com/ping
+status: up
+code: 200
+responseTime: 66
+lastUpdated: 2022-02-03T01:47:15.162Z
 startTime: Thu Feb 03 2022 01:30:13 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
