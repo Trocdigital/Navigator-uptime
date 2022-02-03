@@ -8,7 +8,7 @@ sites:
   - name: Navigator API
     url: https://navapi.mobileinsight.com
   - name: Navigator DataIntegrator API Service
-    url: https://navdata.mobileinsight.com
+    url: https://navdata.trocglobal.com/ping
   - name: Navigator Frontend Service
     url: https://front-production.mobileinsight.com/v2/assets/img/mobile_insight_icon.png
 
