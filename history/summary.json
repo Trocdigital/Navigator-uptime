@@ -4,7 +4,7 @@
     "url": "https://navigator.mobileinsight.com/ping",
     "icon": "https://favicons.githubusercontent.com/navigator.mobileinsight.com",
     "slug": "navigator",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -15,7 +15,9 @@
     "timeWeek": 375,
     "timeMonth": 276,
     "timeYear": 315,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-04-01": 0
+    }
   },
   {
     "name": "Navigator API",
