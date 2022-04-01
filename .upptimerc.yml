@@ -4,9 +4,9 @@ repo: Navigator-uptime # The name of this repository
 
 sites:
   - name: Navigator 
-    url: https://navigator.mobileinsight.com
+    url: https://navigator.mobileinsight.com/ping
   - name: Navigator API
-    url: https://navapi.mobileinsight.com
+    url: https://navapi.mobileinsight.com/ping
   - name: Navigator DataIntegrator API Service
     url: https://navdata.trocglobal.com/ping
   - name: Navigator Frontend Service
