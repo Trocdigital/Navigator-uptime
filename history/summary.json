@@ -10,11 +10,11 @@
     "uptimeWeek": "97.77%",
     "uptimeMonth": "99.49%",
     "uptimeYear": "99.74%",
-    "time": 311,
-    "timeDay": 348,
-    "timeWeek": 305,
-    "timeMonth": 275,
-    "timeYear": 311,
+    "time": 309,
+    "timeDay": 236,
+    "timeWeek": 295,
+    "timeMonth": 295,
+    "timeYear": 309,
     "dailyMinutesDown": {
       "2022-04-01": 224
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 205,
-    "timeDay": 250,
-    "timeWeek": 191,
-    "timeMonth": 177,
-    "timeYear": 205,
+    "time": 202,
+    "timeDay": 61,
+    "timeWeek": 172,
+    "timeMonth": 172,
+    "timeYear": 202,
     "dailyMinutesDown": {
       "2022-02-07": 16
     }
@@ -45,15 +45,15 @@
     "icon": "https://favicons.githubusercontent.com/navdata.trocglobal.com",
     "slug": "navigator-data-integrator-api-service",
     "status": "up",
-    "uptime": "98.78%",
+    "uptime": "98.80%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "98.78%",
+    "uptimeYear": "98.80%",
     "time": 125,
-    "timeDay": 276,
-    "timeWeek": 216,
-    "timeMonth": 196,
+    "timeDay": 104,
+    "timeWeek": 197,
+    "timeMonth": 197,
     "timeYear": 125,
     "dailyMinutesDown": {
       "2022-02-28": 31,
@@ -75,11 +75,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 157,
-    "timeDay": 324,
-    "timeWeek": 277,
-    "timeMonth": 249,
-    "timeYear": 157,
+    "time": 156,
+    "timeDay": 112,
+    "timeWeek": 250,
+    "timeMonth": 250,
+    "timeYear": 156,
     "dailyMinutesDown": {}
   }
 ]
