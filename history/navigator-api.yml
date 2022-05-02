@@ -1,7 +1,7 @@
 url: https://navapi.mobileinsight.com/ping
-status: up
-code: 200
-responseTime: 116
-lastUpdated: 2022-05-02T18:19:56.645Z
+status: down
+code: 503
+responseTime: 119
+lastUpdated: 2022-05-02T19:14:52.031Z
 startTime: Thu Feb 03 2022 01:30:12 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
