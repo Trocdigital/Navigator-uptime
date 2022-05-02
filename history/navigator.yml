@@ -1,7 +1,7 @@
 url: https://navigator.mobileinsight.com/ping
-status: up
-code: 200
-responseTime: 177
-lastUpdated: 2022-05-02T18:19:55.033Z
+status: down
+code: 503
+responseTime: 192
+lastUpdated: 2022-05-02T19:14:50.043Z
 startTime: Thu Feb 03 2022 01:30:11 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
