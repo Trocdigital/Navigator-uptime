@@ -1,7 +1,7 @@
 url: https://navdata.trocglobal.com/ping
-status: down
-code: 503
-responseTime: 410
-lastUpdated: 2022-06-16T10:43:13.263Z
+status: up
+code: 200
+responseTime: 317
+lastUpdated: 2022-06-16T12:31:40.919Z
 startTime: Thu Feb 03 2022 01:30:13 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
