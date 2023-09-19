@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/navigator.mobileinsight.com.ico",
     "slug": "navigator",
     "status": "down",
-    "uptime": "89.41%",
+    "uptime": "89.34%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "82.85%",
+    "uptimeYear": "82.72%",
     "time": 307,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 283,
     "dailyMinutesDown": {
-      "2023-09-19": 11,
+      "2023-09-19": 672,
       "2023-09-18": 1440,
       "2023-09-17": 1440,
       "2023-09-16": 1440,
@@ -123,17 +123,19 @@
     "url": "https://front-production.mobileinsight.com/v2/assets/img/mobile_insight_icon.png",
     "icon": "https://icons.duckduckgo.com/ip3/front-production.mobileinsight.com.ico",
     "slug": "navigator-frontend-service",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 281,
-    "timeDay": 557,
-    "timeWeek": 245,
+    "time": 282,
+    "timeDay": 439,
+    "timeWeek": 254,
     "timeMonth": 312,
-    "timeYear": 269,
-    "dailyMinutesDown": {}
+    "timeYear": 270,
+    "dailyMinutesDown": {
+      "2023-09-19": 0
+    }
   }
 ]
