@@ -9,8 +9,6 @@ sites:
     url: https://api.trocdigital.io/ping
   - name: Navigator DataIntegrator API Service
     url: https://data.trocdigital.io/ping
-  - name: Navigator Frontend Service
-    url: https://front-production.mobileinsight.com/v2/assets/img/mobile_insight_icon.png
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
