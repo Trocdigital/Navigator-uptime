@@ -11,6 +11,16 @@ sites:
     url: https://data.trocdigital.io/ping
   - name: Navigator Frontend Service
     url: https://navigator.trocdigital.io/
+  - name: Navigator Monitoring
+    url: https://monitor.trocdigital.io/
+  - name: Navigator Monitoring
+    url: https://monitor.trocdigital.io/
+  - name: Troc ERP
+    url: https://troc.erp.trocdigital.io/web/login
+  - name: Ticket System  Zammad Trocglobal
+    url: https://support.trocdigital.io/
+    
+    
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
