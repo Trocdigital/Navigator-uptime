@@ -13,8 +13,6 @@ sites:
     url: https://navigator.trocdigital.io/
   - name: Navigator Monitoring
     url: https://monitor.trocdigital.io/
-  - name: Navigator Monitoring
-    url: https://monitor.trocdigital.io/
   - name: Troc ERP
     url: https://troc.erp.trocdigital.io/web/login
   - name: Ticket System  Zammad Trocglobal
