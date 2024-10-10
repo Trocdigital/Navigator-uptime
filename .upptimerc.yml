@@ -42,6 +42,7 @@ status-website:
 notifications:
   telegram:
     enabled: true
-    token: "<TELEGRAM_BOT_API_TOKEN_UPDATE>"
-    chat_id: "7617815543"
+    token: "TU_TELEGRAM_BOT_API_TOKEN"
+    chat_id: "NOTIFICATION_TELEGRAM_CHAT_ID"
+
 
