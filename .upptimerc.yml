@@ -39,3 +39,9 @@ status-website:
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+notifications:
+  telegram:
+    enabled: true
+    token: "<TELEGRAM_BOT_API_TOKEN_UPDATE>"
+    chat_id: "7617815543"
+
