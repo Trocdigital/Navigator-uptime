@@ -13,10 +13,14 @@ sites:
     url: https://navigator.trocdigital.io/
   - name: Navigator Monitoring
     url: https://monitor.trocdigital.io/
-  - name: Troc ERP
-    url: https://troc.erp.trocdigital.io/web/login
   - name: Ticket System  Zammad Trocglobal
     url: https://support.trocdigital.io/
+  - name: Ticket System  Zammad Pokemon Trocglobal
+    url: https://pokemon.tickets.trocdigital.io/
+  - name: Ticket System  Zammad Bose Trocglobal
+    url: https://bose.tickets.trocdigital.io/
+  - name: Troc ERP Odoo
+    url: https://troc.erp.trocdigital.io/web/login
   - name: Ticket System  Odoo Polestar CRM
     url: https://crm.polestarpilates.com/web/login/
     
