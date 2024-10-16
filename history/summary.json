@@ -5,15 +5,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/navigator.trocdigital.io.ico",
     "slug": "navigator",
     "status": "up",
-    "uptime": "67.95%",
+    "uptime": "67.96%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "38.01%",
-    "time": 298,
-    "timeDay": 246,
-    "timeWeek": 286,
-    "timeMonth": 286,
+    "uptimeYear": "38.05%",
+    "time": 297,
+    "timeDay": 259,
+    "timeWeek": 283,
+    "timeMonth": 283,
     "timeYear": 293,
     "dailyMinutesDown": {
       "2024-05-29": 186,
@@ -240,8 +240,7 @@
       "2023-10-21": 1440,
       "2023-10-20": 1440,
       "2023-10-19": 1440,
-      "2023-10-18": 1440,
-      "2023-10-17": 1440
+      "2023-10-18": 1440
     }
   },
   {
@@ -256,9 +255,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 291,
-    "timeDay": 291,
-    "timeWeek": 359,
-    "timeMonth": 359,
+    "timeDay": 254,
+    "timeWeek": 349,
+    "timeMonth": 349,
     "timeYear": 339,
     "dailyMinutesDown": {}
   },
@@ -272,11 +271,11 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "38.01%",
-    "time": 302,
-    "timeDay": 247,
-    "timeWeek": 324,
-    "timeMonth": 324,
+    "uptimeYear": "38.05%",
+    "time": 303,
+    "timeDay": 357,
+    "timeWeek": 328,
+    "timeMonth": 328,
     "timeYear": 392,
     "dailyMinutesDown": {
       "2024-05-29": 186,
@@ -503,8 +502,7 @@
       "2023-10-21": 1440,
       "2023-10-20": 1440,
       "2023-10-19": 1440,
-      "2023-10-18": 1440,
-      "2023-10-17": 1440
+      "2023-10-18": 1440
     }
   },
   {
@@ -513,16 +511,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/navigator.trocdigital.io.ico",
     "slug": "navigator-frontend-service",
     "status": "up",
-    "uptime": "74.31%",
+    "uptime": "74.32%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "37.87%",
+    "uptimeYear": "37.90%",
     "time": 176,
-    "timeDay": 14,
-    "timeWeek": 27,
-    "timeMonth": 27,
-    "timeYear": 116,
+    "timeDay": 11,
+    "timeWeek": 25,
+    "timeMonth": 25,
+    "timeYear": 115,
     "dailyMinutesDown": {
       "2024-05-29": 944,
       "2024-05-28": 1440,
@@ -748,8 +746,7 @@
       "2023-10-21": 1440,
       "2023-10-20": 1440,
       "2023-10-19": 1440,
-      "2023-10-18": 1440,
-      "2023-10-17": 1440
+      "2023-10-18": 1440
     }
   },
   {
@@ -763,11 +760,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 558,
-    "timeDay": 288,
-    "timeWeek": 499,
-    "timeMonth": 499,
-    "timeYear": 558,
+    "time": 554,
+    "timeDay": 233,
+    "timeWeek": 472,
+    "timeMonth": 472,
+    "timeYear": 554,
     "dailyMinutesDown": {}
   },
   {
@@ -781,11 +778,11 @@
     "uptimeWeek": "98.26%",
     "uptimeMonth": "99.60%",
     "uptimeYear": "98.63%",
-    "time": 273,
-    "timeDay": 249,
-    "timeWeek": 290,
-    "timeMonth": 290,
-    "timeYear": 273,
+    "time": 272,
+    "timeDay": 261,
+    "timeWeek": 285,
+    "timeMonth": 285,
+    "timeYear": 272,
     "dailyMinutesDown": {
       "2024-10-15": 41,
       "2024-10-14": 28,
@@ -889,19 +886,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/pokemon.tickets.trocdigital.io.ico",
     "slug": "ticket-system-zammad-pokemon-trocglobal",
     "status": "up",
-    "uptime": "99.92%",
-    "uptimeDay": "99.63%",
-    "uptimeWeek": "99.92%",
-    "uptimeMonth": "99.92%",
-    "uptimeYear": "99.92%",
-    "time": 364,
-    "timeDay": 393,
-    "timeWeek": 364,
-    "timeMonth": 364,
-    "timeYear": 364,
-    "dailyMinutesDown": {
-      "2024-10-15": 5
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 348,
+    "timeDay": 354,
+    "timeWeek": 348,
+    "timeMonth": 348,
+    "timeYear": 348,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Ticket System  Zammad Bose Trocglobal",
@@ -914,11 +909,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 331,
-    "timeDay": 365,
-    "timeWeek": 331,
-    "timeMonth": 331,
-    "timeYear": 331,
+    "time": 317,
+    "timeDay": 310,
+    "timeWeek": 317,
+    "timeMonth": 317,
+    "timeYear": 317,
     "dailyMinutesDown": {}
   },
   {
@@ -932,11 +927,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 232,
-    "timeDay": 141,
-    "timeWeek": 232,
-    "timeMonth": 232,
-    "timeYear": 232,
+    "time": 222,
+    "timeDay": 167,
+    "timeWeek": 222,
+    "timeMonth": 222,
+    "timeYear": 222,
     "dailyMinutesDown": {}
   },
   {
@@ -950,11 +945,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 306,
-    "timeDay": 143,
-    "timeWeek": 306,
-    "timeMonth": 306,
-    "timeYear": 306,
+    "time": 293,
+    "timeDay": 172,
+    "timeWeek": 293,
+    "timeMonth": 293,
+    "timeYear": 293,
     "dailyMinutesDown": {}
   }
 ]
