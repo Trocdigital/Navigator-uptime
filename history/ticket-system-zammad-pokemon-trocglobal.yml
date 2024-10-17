@@ -1,7 +1,7 @@
 url: https://pokemon.tickets.trocdigital.io/
-status: up
-code: 200
-responseTime: 413
-lastUpdated: 2024-10-16T23:04:23.375Z
+status: down
+code: 503
+responseTime: 325
+lastUpdated: 2024-10-17T05:04:16.801Z
 startTime: 2024-10-10T22:04:18.574Z
 generator: Upptime <https://github.com/upptime/upptime>
