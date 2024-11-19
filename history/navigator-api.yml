@@ -1,7 +1,7 @@
 url: https://api.trocdigital.io/ping
-status: up
-code: 200
-responseTime: 178
-lastUpdated: 2024-11-18T23:03:59.374Z
+status: down
+code: 503
+responseTime: 304
+lastUpdated: 2024-11-19T05:02:49.463Z
 startTime: 2022-02-03T01:30:12.000Z
 generator: Upptime <https://github.com/upptime/upptime>
