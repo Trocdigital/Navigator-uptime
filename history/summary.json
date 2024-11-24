@@ -9,12 +9,12 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "48.67%",
-    "time": 304,
-    "timeDay": 295,
-    "timeWeek": 297,
+    "uptimeYear": "48.73%",
+    "time": 305,
+    "timeDay": 392,
+    "timeWeek": 312,
     "timeMonth": 330,
-    "timeYear": 304,
+    "timeYear": 305,
     "dailyMinutesDown": {
       "2024-05-29": 186,
       "2024-05-28": 1440,
@@ -201,8 +201,7 @@
       "2023-11-29": 1440,
       "2023-11-28": 1440,
       "2023-11-27": 1440,
-      "2023-11-26": 1440,
-      "2023-11-25": 1440
+      "2023-11-26": 1440
     }
   },
   {
@@ -217,10 +216,10 @@
     "uptimeMonth": "97.60%",
     "uptimeYear": "99.80%",
     "time": 302,
-    "timeDay": 351,
+    "timeDay": 356,
     "timeWeek": 337,
-    "timeMonth": 374,
-    "timeYear": 368,
+    "timeMonth": 373,
+    "timeYear": 369,
     "dailyMinutesDown": {
       "2024-11-23": 57,
       "2024-11-22": 61,
@@ -247,14 +246,14 @@
     "icon": "https://icons.duckduckgo.com/ip3/data.trocdigital.io.ico",
     "slug": "navigator-data-integrator-api-service",
     "status": "up",
-    "uptime": "75.50%",
+    "uptime": "75.51%",
     "uptimeDay": "95.48%",
     "uptimeWeek": "95.54%",
     "uptimeMonth": "97.42%",
-    "uptimeYear": "48.45%",
+    "uptimeYear": "48.52%",
     "time": 340,
-    "timeDay": 368,
-    "timeWeek": 334,
+    "timeDay": 394,
+    "timeWeek": 335,
     "timeMonth": 353,
     "timeYear": 377,
     "dailyMinutesDown": {
@@ -460,8 +459,7 @@
       "2023-11-29": 1440,
       "2023-11-28": 1440,
       "2023-11-27": 1440,
-      "2023-11-26": 1440,
-      "2023-11-25": 1440
+      "2023-11-26": 1440
     }
   },
   {
@@ -474,11 +472,11 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "48.52%",
+    "uptimeYear": "48.59%",
     "time": 143,
-    "timeDay": 23,
-    "timeWeek": 20,
-    "timeMonth": 38,
+    "timeDay": 61,
+    "timeWeek": 25,
+    "timeMonth": 36,
     "timeYear": 72,
     "dailyMinutesDown": {
       "2024-05-29": 944,
@@ -666,8 +664,7 @@
       "2023-11-29": 1440,
       "2023-11-28": 1440,
       "2023-11-27": 1440,
-      "2023-11-26": 1440,
-      "2023-11-25": 1440
+      "2023-11-26": 1440
     }
   },
   {
@@ -681,11 +678,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 554,
-    "timeDay": 578,
-    "timeWeek": 499,
-    "timeMonth": 543,
-    "timeYear": 554,
+    "time": 555,
+    "timeDay": 725,
+    "timeWeek": 538,
+    "timeMonth": 546,
+    "timeYear": 555,
     "dailyMinutesDown": {}
   },
   {
@@ -699,11 +696,11 @@
     "uptimeWeek": "97.48%",
     "uptimeMonth": "97.15%",
     "uptimeYear": "98.70%",
-    "time": 291,
-    "timeDay": 278,
-    "timeWeek": 298,
-    "timeMonth": 337,
-    "timeYear": 291,
+    "time": 292,
+    "timeDay": 320,
+    "timeWeek": 304,
+    "timeMonth": 336,
+    "timeYear": 292,
     "dailyMinutesDown": {
       "2024-11-23": 34,
       "2024-11-22": 40,
@@ -809,18 +806,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/pokemon.tickets.trocdigital.io.ico",
     "slug": "ticket-system-zammad-pokemon-trocglobal",
     "status": "up",
-    "uptime": "99.52%",
-    "uptimeDay": "94.01%",
-    "uptimeWeek": "98.06%",
-    "uptimeMonth": "99.31%",
-    "uptimeYear": "99.52%",
+    "uptime": "99.54%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "98.15%",
+    "uptimeMonth": "99.33%",
+    "uptimeYear": "99.54%",
     "time": 388,
-    "timeDay": 294,
-    "timeWeek": 288,
+    "timeDay": 344,
+    "timeWeek": 289,
     "timeMonth": 401,
     "timeYear": 388,
     "dailyMinutesDown": {
-      "2024-11-23": 10,
       "2024-11-22": 165,
       "2024-11-20": 22,
       "2024-11-15": 37,
@@ -840,9 +836,9 @@
     "uptimeMonth": "99.96%",
     "uptimeYear": "99.97%",
     "time": 389,
-    "timeDay": 310,
-    "timeWeek": 298,
-    "timeMonth": 418,
+    "timeDay": 352,
+    "timeWeek": 305,
+    "timeMonth": 419,
     "timeYear": 389,
     "dailyMinutesDown": {
       "2024-11-03": 17
@@ -860,8 +856,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 242,
-    "timeDay": 228,
-    "timeWeek": 220,
+    "timeDay": 255,
+    "timeWeek": 215,
     "timeMonth": 239,
     "timeYear": 242,
     "dailyMinutesDown": {}
@@ -878,9 +874,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 298,
-    "timeDay": 192,
-    "timeWeek": 270,
-    "timeMonth": 293,
+    "timeDay": 274,
+    "timeWeek": 244,
+    "timeMonth": 291,
     "timeYear": 298,
     "dailyMinutesDown": {}
   }
