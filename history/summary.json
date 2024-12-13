@@ -655,19 +655,19 @@
     "url": "https://monitor.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/monitor.trocdigital.io.ico",
     "slug": "navigator-monitoring",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.26%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 617,
-    "timeDay": 499,
-    "timeWeek": 1586,
-    "timeMonth": 856,
-    "timeYear": 617,
+    "time": 616,
+    "timeDay": 501,
+    "timeWeek": 1487,
+    "timeMonth": 846,
+    "timeYear": 616,
     "dailyMinutesDown": {
-      "2024-12-13": 0
+      "2024-12-13": 11
     }
   },
   {
