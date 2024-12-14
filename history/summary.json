@@ -5,15 +5,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/navigator.trocdigital.io.ico",
     "slug": "navigator",
     "status": "up",
-    "uptime": "69.75%",
+    "uptime": "69.76%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "54.11%",
+    "uptimeYear": "54.21%",
     "time": 313,
-    "timeDay": 404,
-    "timeWeek": 374,
-    "timeMonth": 353,
+    "timeDay": 341,
+    "timeWeek": 379,
+    "timeMonth": 354,
     "timeYear": 313,
     "dailyMinutesDown": {
       "2024-05-29": 186,
@@ -181,8 +181,7 @@
       "2023-12-19": 1440,
       "2023-12-18": 1440,
       "2023-12-17": 1440,
-      "2023-12-16": 1440,
-      "2023-12-15": 1440
+      "2023-12-16": 1440
     }
   },
   {
@@ -197,10 +196,10 @@
     "uptimeMonth": "95.72%",
     "uptimeYear": "99.56%",
     "time": 325,
-    "timeDay": 432,
-    "timeWeek": 368,
-    "timeMonth": 374,
-    "timeYear": 383,
+    "timeDay": 408,
+    "timeWeek": 365,
+    "timeMonth": 366,
+    "timeYear": 384,
     "dailyMinutesDown": {
       "2024-12-13": 62,
       "2024-12-12": 63,
@@ -247,16 +246,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/data.trocdigital.io.ico",
     "slug": "navigator-data-integrator-api-service",
     "status": "up",
-    "uptime": "75.88%",
+    "uptime": "75.89%",
     "uptimeDay": "95.66%",
     "uptimeWeek": "95.58%",
     "uptimeMonth": "95.66%",
-    "uptimeYear": "53.66%",
-    "time": 331,
-    "timeDay": 303,
-    "timeWeek": 320,
-    "timeMonth": 344,
-    "timeYear": 369,
+    "uptimeYear": "53.76%",
+    "time": 332,
+    "timeDay": 368,
+    "timeWeek": 321,
+    "timeMonth": 345,
+    "timeYear": 370,
     "dailyMinutesDown": {
       "2024-12-13": 62,
       "2024-12-12": 63,
@@ -460,8 +459,7 @@
       "2023-12-19": 1440,
       "2023-12-18": 1440,
       "2023-12-17": 1440,
-      "2023-12-16": 1440,
-      "2023-12-15": 1440
+      "2023-12-16": 1440
     }
   },
   {
@@ -470,16 +468,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/navigator.trocdigital.io.ico",
     "slug": "navigator-frontend-service",
     "status": "up",
-    "uptime": "75.76%",
+    "uptime": "75.77%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "53.97%",
-    "time": 130,
-    "timeDay": 59,
-    "timeWeek": 46,
-    "timeMonth": 36,
-    "timeYear": 57,
+    "uptimeYear": "54.07%",
+    "time": 129,
+    "timeDay": 23,
+    "timeWeek": 40,
+    "timeMonth": 35,
+    "timeYear": 56,
     "dailyMinutesDown": {
       "2024-05-29": 944,
       "2024-05-28": 1440,
@@ -646,8 +644,7 @@
       "2023-12-19": 1440,
       "2023-12-18": 1440,
       "2023-12-17": 1440,
-      "2023-12-16": 1440,
-      "2023-12-15": 1440
+      "2023-12-16": 1440
     }
   },
   {
@@ -657,18 +654,16 @@
     "slug": "navigator-monitoring",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.26%",
-    "uptimeWeek": "99.89%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 616,
-    "timeDay": 501,
-    "timeWeek": 1487,
-    "timeMonth": 846,
+    "timeDay": 462,
+    "timeWeek": 1465,
+    "timeMonth": 845,
     "timeYear": 616,
-    "dailyMinutesDown": {
-      "2024-12-13": 11
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Ticket System  Zammad Trocglobal",
@@ -682,8 +677,8 @@
     "uptimeMonth": "96.78%",
     "uptimeYear": "98.56%",
     "time": 293,
-    "timeDay": 328,
-    "timeWeek": 311,
+    "timeDay": 261,
+    "timeWeek": 304,
     "timeMonth": 301,
     "timeYear": 293,
     "dailyMinutesDown": {
@@ -792,13 +787,13 @@
     "slug": "ticket-system-zammad-pokemon-trocglobal",
     "status": "up",
     "uptime": "99.65%",
-    "uptimeDay": "99.33%",
+    "uptimeDay": "100.00%",
     "uptimeWeek": "99.90%",
     "uptimeMonth": "99.43%",
     "uptimeYear": "99.65%",
     "time": 372,
-    "timeDay": 263,
-    "timeWeek": 368,
+    "timeDay": 389,
+    "timeWeek": 361,
     "timeMonth": 306,
     "timeYear": 372,
     "dailyMinutesDown": {
@@ -822,11 +817,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 372,
-    "timeDay": 328,
-    "timeWeek": 307,
-    "timeMonth": 312,
-    "timeYear": 372,
+    "time": 371,
+    "timeDay": 195,
+    "timeWeek": 291,
+    "timeMonth": 310,
+    "timeYear": 371,
     "dailyMinutesDown": {
       "2024-11-03": 17
     }
@@ -842,11 +837,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 250,
-    "timeDay": 309,
-    "timeWeek": 266,
-    "timeMonth": 257,
-    "timeYear": 250,
+    "time": 253,
+    "timeDay": 406,
+    "timeWeek": 290,
+    "timeMonth": 261,
+    "timeYear": 253,
     "dailyMinutesDown": {}
   },
   {
@@ -861,9 +856,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 308,
-    "timeDay": 394,
-    "timeWeek": 381,
-    "timeMonth": 310,
+    "timeDay": 322,
+    "timeWeek": 382,
+    "timeMonth": 309,
     "timeYear": 308,
     "dailyMinutesDown": {}
   }
