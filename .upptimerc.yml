@@ -23,6 +23,16 @@ sites:
     url: https://troc.erp.trocdigital.io/web/login
   - name: Ticket System  Odoo Polestar CRM
     url: https://crm.polestarpilates.com/web/login/
+  - name: Navigator API AI
+    url: https://api-ai.trocdigital.io/ping
+  - name: Zammad Apple
+    url: https://apple.tickets.trocdigital.io/
+  - name: Superset Prod
+    url: https://superset.trocdigital.io/login/
+  - name: N8N Production
+    url: https://n8n.trocdigital.io/
+  - name: DataIntegrator API Production (Scheduler)
+    url: https://data.trocdigital.io/ping
     
 
 status-website:
