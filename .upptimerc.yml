@@ -23,7 +23,8 @@ sites:
     url: https://troc.erp.trocdigital.io/web/login
   - name: Ticket System  Odoo Polestar CRM
     url: https://crm.polestarpilates.com/web/login/
-    
+  - name: Test Site (Will Fail)
+    url: https://httpstat.us/500
     
 
 status-website:
@@ -46,7 +47,7 @@ status-website:
 notifications:
   telegram:
     enabled: true
-    token: "TU_TELEGRAM_BOT_API_TOKEN"
-    chat_id: "NOTIFICATION_TELEGRAM_CHAT_ID"
+    token: "TELEGRAM_BOT_TOKEN"
+    chat_id: "TELEGRAM_CHAT_ID"
 
 
