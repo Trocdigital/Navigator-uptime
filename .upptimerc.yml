@@ -31,6 +31,14 @@ sites:
     url: https://n8n.trocdigital.io/
   - name: DataIntegrator API Production (Scheduler)
     url: https://data.trocdigital.io/ping
+  - name: Odoo EmployeeHub
+    url: https://employee-hub.erp.trocdigital.io/
+  - name: Odoo Roadshow
+    url: https://roadshows.erp.trocdigital.io/
+  - name: CRM ATT Odoo
+    url: https://crm-att.erp.trocdigital.io/
+  - name: Epson Events Odoo
+    url: https://epson-events.erp.trocdigital.io/
     
 
 status-website:
