@@ -23,8 +23,6 @@ sites:
     url: https://troc.erp.trocdigital.io/web/login
   - name: Ticket System  Odoo Polestar CRM
     url: https://crm.polestarpilates.com/web/login/
-  - name: Telegram Notification Test
-    url: https://httpstat.us/503
     
 
 status-website:
@@ -48,5 +46,7 @@ notifications:
   - type: telegram
     botKey: $NOTIFICATION_TELEGRAM_BOT_KEY
     chatId: $NOTIFICATION_TELEGRAM_CHAT_ID
+    sendDown: true
+    sendUp: true
 
 
