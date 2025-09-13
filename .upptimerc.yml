@@ -23,8 +23,8 @@ sites:
     url: https://troc.erp.trocdigital.io/web/login
   - name: Ticket System  Odoo Polestar CRM
     url: https://crm.polestarpilates.com/web/login/
-  - name: Telegram Test Site
-    url: https://httpstat.us/502
+  - name: Telegram Notification Test
+    url: https://httpstat.us/503
     
 
 status-website:
