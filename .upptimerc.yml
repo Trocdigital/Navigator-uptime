@@ -39,6 +39,8 @@ sites:
     url: https://crm-att.erp.trocdigital.io/
   - name: Epson Events Odoo
     url: https://epson-events.erp.trocdigital.io/
+  - name: We Protec U Production (Global Leaks)
+    url: https://weprotectu.trocdigital.io/
     
 
 status-website:
