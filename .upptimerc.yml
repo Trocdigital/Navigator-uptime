@@ -7,8 +7,6 @@ sites:
     url: https://navigator.trocdigital.io/ping
   - name: Navigator API
     url: https://api.trocdigital.io/ping
-  - name: Navigator DataIntegrator API Service
-    url: https://data.trocdigital.io/ping
   - name: Navigator Frontend Service
     url: https://navigator.trocdigital.io/
   - name: Navigator Monitoring
