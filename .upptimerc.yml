@@ -23,10 +23,8 @@ sites:
     url: https://troc.erp.trocdigital.io/web/login
   - name: Ticket System  Odoo Polestar CRM
     url: https://crm.polestarpilates.com/web/login/
-  - name: Test Site (Will Fail)
-    url: https://httpstat.us/500
-  - name: Another Test Site
-    url: https://httpstat.us/503
+  - name: Telegram Test Site
+    url: https://httpstat.us/502
     
 
 status-website:
