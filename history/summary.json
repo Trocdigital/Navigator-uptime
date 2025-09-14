@@ -248,18 +248,20 @@
     "url": "https://troc.erp.trocdigital.io/web/login",
     "icon": "https://icons.duckduckgo.com/ip3/troc.erp.trocdigital.io.ico",
     "slug": "troc-erp-odoo",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 265,
-    "timeDay": 335,
-    "timeWeek": 335,
-    "timeMonth": 335,
-    "timeYear": 265,
-    "dailyMinutesDown": {}
+    "time": 267,
+    "timeDay": 341,
+    "timeWeek": 341,
+    "timeMonth": 341,
+    "timeYear": 267,
+    "dailyMinutesDown": {
+      "2025-09-14": 0
+    }
   },
   {
     "name": "Ticket System  Odoo Polestar CRM",
