@@ -1,7 +1,7 @@
 url: https://monitor.trocdigital.io/
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-09-22T17:47:17.000Z
+status: up
+code: 200
+responseTime: 514
+lastUpdated: 2025-09-22T17:52:37.363Z
 startTime: 2024-05-29T15:57:33.956Z
 generator: Upptime <https://github.com/upptime/upptime>
