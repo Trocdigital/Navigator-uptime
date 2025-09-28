@@ -309,19 +309,19 @@
     "url": "https://apple.tickets.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/apple.tickets.trocdigital.io.ico",
     "slug": "zammad-apple",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 293,
-    "timeDay": 296,
-    "timeWeek": 271,
-    "timeMonth": 293,
-    "timeYear": 293,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "99.55%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.97%",
+    "time": 287,
+    "timeDay": 250,
+    "timeWeek": 259,
+    "timeMonth": 287,
+    "timeYear": 287,
     "dailyMinutesDown": {
-      "2025-09-28": 0
+      "2025-09-28": 7
     }
   },
   {
