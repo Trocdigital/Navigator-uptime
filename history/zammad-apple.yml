@@ -1,7 +1,7 @@
 url: https://apple.tickets.trocdigital.io/
-status: down
-code: 503
-responseTime: 276
-lastUpdated: 2025-09-28T06:46:16.062Z
+status: up
+code: 200
+responseTime: 159
+lastUpdated: 2025-09-28T06:52:45.237Z
 startTime: 2025-09-13T14:45:10.524Z
 generator: Upptime <https://github.com/upptime/upptime>
