@@ -236,7 +236,7 @@
     "uptimeYear": "99.99%",
     "time": 351,
     "timeDay": 409,
-    "timeWeek": 326,
+    "timeWeek": 323,
     "timeMonth": 331,
     "timeYear": 351,
     "dailyMinutesDown": {
@@ -364,19 +364,19 @@
     "url": "https://data.trocdigital.io/ping",
     "icon": "https://icons.duckduckgo.com/ip3/data.trocdigital.io.ico",
     "slug": "data-integrator-api-production-scheduler",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 366,
-    "timeDay": 400,
-    "timeWeek": 425,
-    "timeMonth": 366,
-    "timeYear": 366,
+    "status": "up",
+    "uptime": "99.96%",
+    "uptimeDay": "99.26%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.96%",
+    "time": 367,
+    "timeDay": 391,
+    "timeWeek": 421,
+    "timeMonth": 367,
+    "timeYear": 367,
     "dailyMinutesDown": {
-      "2025-10-03": 0
+      "2025-10-03": 11
     }
   },
   {
