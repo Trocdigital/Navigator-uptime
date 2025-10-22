@@ -14,7 +14,7 @@
     "timeDay": 305,
     "timeWeek": 252,
     "timeMonth": 442,
-    "timeYear": 373,
+    "timeYear": 374,
     "dailyMinutesDown": {}
   },
   {
@@ -32,7 +32,7 @@
     "timeDay": 403,
     "timeWeek": 257,
     "timeMonth": 363,
-    "timeYear": 382,
+    "timeYear": 383,
     "dailyMinutesDown": {
       "2025-10-07": 34,
       "2025-09-29": 42,
@@ -103,7 +103,7 @@
     "timeDay": 59,
     "timeWeek": 30,
     "timeMonth": 35,
-    "timeYear": 36,
+    "timeYear": 37,
     "dailyMinutesDown": {}
   },
   {
@@ -121,7 +121,7 @@
     "timeDay": 554,
     "timeWeek": 430,
     "timeMonth": 544,
-    "timeYear": 639,
+    "timeYear": 640,
     "dailyMinutesDown": {
       "2025-10-10": 46,
       "2025-10-09": 513,
@@ -187,8 +187,7 @@
       "2024-10-26": 38,
       "2024-10-25": 41,
       "2024-10-24": 51,
-      "2024-10-23": 50,
-      "2024-10-22": 34
+      "2024-10-23": 50
     }
   },
   {
@@ -206,7 +205,7 @@
     "timeDay": 16308,
     "timeWeek": 2560,
     "timeMonth": 783,
-    "timeYear": 425,
+    "timeYear": 427,
     "dailyMinutesDown": {
       "2024-12-18": 59,
       "2024-12-12": 10,
@@ -233,7 +232,7 @@
     "timeDay": 354,
     "timeWeek": 286,
     "timeMonth": 479,
-    "timeYear": 382,
+    "timeYear": 383,
     "dailyMinutesDown": {
       "2025-10-04": 35,
       "2025-09-16": 20,
@@ -256,7 +255,7 @@
     "timeDay": 279,
     "timeWeek": 417,
     "timeMonth": 429,
-    "timeYear": 327,
+    "timeYear": 329,
     "dailyMinutesDown": {}
   },
   {
@@ -274,7 +273,7 @@
     "timeDay": 602,
     "timeWeek": 435,
     "timeMonth": 398,
-    "timeYear": 349,
+    "timeYear": 351,
     "dailyMinutesDown": {
       "2024-12-17": 33
     }
@@ -284,19 +283,20 @@
     "url": "https://api-ai.trocdigital.io/ping",
     "icon": "https://icons.duckduckgo.com/ip3/api-ai.trocdigital.io.ico",
     "slug": "navigator-api-ai",
-    "status": "up",
-    "uptime": "99.69%",
-    "uptimeDay": "99.81%",
-    "uptimeWeek": "99.66%",
+    "status": "down",
+    "uptime": "99.70%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "99.69%",
     "uptimeMonth": "99.71%",
-    "uptimeYear": "99.69%",
-    "time": 495,
-    "timeDay": 246,
-    "timeWeek": 193,
-    "timeMonth": 614,
-    "timeYear": 495,
+    "uptimeYear": "99.70%",
+    "time": 491,
+    "timeDay": 225,
+    "timeWeek": 192,
+    "timeMonth": 606,
+    "timeYear": 491,
     "dailyMinutesDown": {
-      "2025-10-21": 3,
+      "2025-10-22": 0,
+      "2025-10-21": 0,
       "2025-10-15": 31,
       "2025-10-08": 14,
       "2025-10-07": 28,
@@ -458,9 +458,9 @@
     "url": "https://weprotectu.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/weprotectu.trocdigital.io.ico",
     "slug": "we-protec-u-production-global-leaks",
-    "status": "up",
+    "status": "down",
     "uptime": "99.56%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "99.66%",
     "uptimeMonth": "99.61%",
     "uptimeYear": "99.56%",
@@ -470,6 +470,7 @@
     "timeMonth": 168,
     "timeYear": 178,
     "dailyMinutesDown": {
+      "2025-10-22": 0,
       "2025-10-16": 34,
       "2025-10-13": 37,
       "2025-10-04": 32,
