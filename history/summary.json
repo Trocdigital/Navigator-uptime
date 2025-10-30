@@ -379,19 +379,19 @@
     "url": "https://employee-hub.erp.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/employee-hub.erp.trocdigital.io.ico",
     "slug": "odoo-employee-hub",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 767,
-    "timeDay": 11332,
-    "timeWeek": 3044,
-    "timeMonth": 1023,
-    "timeYear": 767,
+    "status": "up",
+    "uptime": "99.98%",
+    "uptimeDay": "98.95%",
+    "uptimeWeek": "99.85%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.98%",
+    "time": 757,
+    "timeDay": 7639,
+    "timeWeek": 2734,
+    "timeMonth": 999,
+    "timeYear": 757,
     "dailyMinutesDown": {
-      "2025-10-30": 0
+      "2025-10-30": 15
     }
   },
   {
