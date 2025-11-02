@@ -304,37 +304,37 @@
     "icon": "https://icons.duckduckgo.com/ip3/apple.tickets.trocdigital.io.ico",
     "slug": "zammad-apple",
     "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.55%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 275,
     "timeDay": 207,
     "timeWeek": 249,
     "timeMonth": 258,
     "timeYear": 275,
-    "dailyMinutesDown": {
-      "2025-11-02": 6
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Superset Prod",
     "url": "https://superset.trocdigital.io/login/",
     "icon": "https://icons.duckduckgo.com/ip3/superset.trocdigital.io.ico",
     "slug": "superset-prod",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 440,
-    "timeDay": 276,
-    "timeWeek": 422,
-    "timeMonth": 406,
-    "timeYear": 440,
-    "dailyMinutesDown": {}
+    "time": 435,
+    "timeDay": 227,
+    "timeWeek": 392,
+    "timeMonth": 399,
+    "timeYear": 435,
+    "dailyMinutesDown": {
+      "2025-11-02": 0
+    }
   },
   {
     "name": "N8N Production",
@@ -400,19 +400,19 @@
     "url": "https://roadshows.erp.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/roadshows.erp.trocdigital.io.ico",
     "slug": "odoo-roadshow",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 338,
-    "timeDay": 179,
-    "timeWeek": 316,
-    "timeMonth": 324,
-    "timeYear": 338,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.62%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
+    "time": 341,
+    "timeDay": 288,
+    "timeWeek": 337,
+    "timeMonth": 329,
+    "timeYear": 341,
     "dailyMinutesDown": {
-      "2025-11-02": 0
+      "2025-11-02": 6
     }
   },
   {
