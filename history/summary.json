@@ -232,10 +232,10 @@
     "url": "https://troc.erp.trocdigital.io/web/login",
     "icon": "https://icons.duckduckgo.com/ip3/troc.erp.trocdigital.io.ico",
     "slug": "troc-erp-odoo",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "99.96%",
     "uptimeYear": "100.00%",
     "time": 341,
@@ -244,6 +244,7 @@
     "timeMonth": 490,
     "timeYear": 362,
     "dailyMinutesDown": {
+      "2025-11-02": 1,
       "2025-10-23": 19
     }
   },
@@ -321,19 +322,19 @@
     "url": "https://superset.trocdigital.io/login/",
     "icon": "https://icons.duckduckgo.com/ip3/superset.trocdigital.io.ico",
     "slug": "superset-prod",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.55%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 435,
-    "timeDay": 227,
-    "timeWeek": 392,
-    "timeMonth": 399,
+    "timeDay": 297,
+    "timeWeek": 397,
+    "timeMonth": 400,
     "timeYear": 435,
     "dailyMinutesDown": {
-      "2025-11-02": 0
+      "2025-11-02": 6
     }
   },
   {
@@ -401,19 +402,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/roadshows.erp.trocdigital.io.ico",
     "slug": "odoo-roadshow",
     "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.62%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 341,
     "timeDay": 288,
     "timeWeek": 337,
     "timeMonth": 329,
     "timeYear": 341,
-    "dailyMinutesDown": {
-      "2025-11-02": 6
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "CRM ATT Odoo",
