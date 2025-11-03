@@ -175,8 +175,7 @@
       "2024-11-07": 33,
       "2024-11-06": 34,
       "2024-11-05": 62,
-      "2024-11-04": 36,
-      "2024-11-03": 44
+      "2024-11-04": 36
     }
   },
   {
@@ -209,22 +208,22 @@
     "url": "https://bose.tickets.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/bose.tickets.trocdigital.io.ico",
     "slug": "ticket-system-zammad-bose-trocglobal",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.92%",
     "uptimeYear": "99.98%",
     "time": 372,
-    "timeDay": 201,
+    "timeDay": 261,
     "timeWeek": 317,
-    "timeMonth": 548,
+    "timeMonth": 541,
     "timeYear": 392,
     "dailyMinutesDown": {
+      "2025-11-03": 0,
       "2025-10-04": 35,
       "2025-09-16": 20,
-      "2024-12-22": 17,
-      "2024-11-03": 17
+      "2024-12-22": 17
     }
   },
   {
@@ -234,9 +233,9 @@
     "slug": "troc-erp-odoo",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.64%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.95%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.96%",
     "uptimeYear": "100.00%",
     "time": 340,
     "timeDay": 473,
@@ -244,7 +243,6 @@
     "timeMonth": 484,
     "timeYear": 362,
     "dailyMinutesDown": {
-      "2025-11-02": 5,
       "2025-10-23": 19
     }
   },
@@ -455,8 +453,8 @@
     "slug": "we-protec-u-production-global-leaks",
     "status": "up",
     "uptime": "99.42%",
-    "uptimeDay": "97.33%",
-    "uptimeWeek": "98.91%",
+    "uptimeDay": "99.00%",
+    "uptimeWeek": "99.10%",
     "uptimeMonth": "99.35%",
     "uptimeYear": "99.42%",
     "time": 167,
