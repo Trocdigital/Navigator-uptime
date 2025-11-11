@@ -80,8 +80,7 @@
       "2024-11-15": 61,
       "2024-11-14": 65,
       "2024-11-13": 66,
-      "2024-11-12": 64,
-      "2024-11-11": 66
+      "2024-11-12": 64
     }
   },
   {
@@ -163,8 +162,7 @@
       "2024-11-15": 40,
       "2024-11-14": 34,
       "2024-11-13": 35,
-      "2024-11-12": 38,
-      "2024-11-11": 40
+      "2024-11-12": 38
     }
   },
   {
@@ -222,9 +220,9 @@
     "slug": "troc-erp-odoo",
     "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "98.98%",
-    "uptimeWeek": "99.67%",
-    "uptimeMonth": "99.88%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "99.82%",
+    "uptimeMonth": "99.91%",
     "uptimeYear": "99.99%",
     "time": 358,
     "timeDay": 432,
@@ -232,7 +230,6 @@
     "timeMonth": 530,
     "timeYear": 392,
     "dailyMinutesDown": {
-      "2025-11-10": 15,
       "2025-11-05": 19,
       "2025-10-23": 19
     }
@@ -443,9 +440,9 @@
     "url": "https://weprotectu.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/weprotectu.trocdigital.io.ico",
     "slug": "we-protec-u-production-global-leaks",
-    "status": "up",
+    "status": "down",
     "uptime": "99.41%",
-    "uptimeDay": "97.48%",
+    "uptimeDay": "97.46%",
     "uptimeWeek": "99.28%",
     "uptimeMonth": "99.26%",
     "uptimeYear": "99.41%",
@@ -455,6 +452,7 @@
     "timeMonth": 157,
     "timeYear": 170,
     "dailyMinutesDown": {
+      "2025-11-11": 0,
       "2025-11-10": 36,
       "2025-11-05": 36,
       "2025-11-02": 38,
