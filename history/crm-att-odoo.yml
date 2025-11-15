@@ -1,7 +1,7 @@
 url: https://crm-att.erp.trocdigital.io/
-status: down
-code: 503
-responseTime: 111
-lastUpdated: 2025-11-15T09:42:03.551Z
+status: up
+code: 200
+responseTime: 1071
+lastUpdated: 2025-11-15T09:48:05.877Z
 startTime: 2025-09-13T15:46:17.639Z
 generator: Upptime <https://github.com/upptime/upptime>
