@@ -70,8 +70,7 @@
       "2024-11-25": 69,
       "2024-11-24": 58,
       "2024-11-23": 57,
-      "2024-11-22": 61,
-      "2024-11-21": 59
+      "2024-11-22": 61
     }
   },
   {
@@ -143,8 +142,7 @@
       "2024-11-25": 36,
       "2024-11-24": 47,
       "2024-11-23": 34,
-      "2024-11-22": 40,
-      "2024-11-21": 40
+      "2024-11-22": 40
     }
   },
   {
@@ -154,9 +152,9 @@
     "slug": "ticket-system-zammad-pokemon-trocglobal",
     "status": "up",
     "uptime": "99.93%",
-    "uptimeDay": "99.58%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "99.95%",
     "time": 405,
     "timeDay": 313,
@@ -164,7 +162,6 @@
     "timeMonth": 687,
     "timeYear": 402,
     "dailyMinutesDown": {
-      "2025-11-20": 6,
       "2024-12-18": 59,
       "2024-12-12": 10,
       "2024-12-04": 19,
@@ -421,10 +418,10 @@
     "url": "https://weprotectu.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/weprotectu.trocdigital.io.ico",
     "slug": "we-protec-u-production-global-leaks",
-    "status": "up",
+    "status": "down",
     "uptime": "99.35%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.28%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "99.27%",
     "uptimeMonth": "99.09%",
     "uptimeYear": "99.35%",
     "time": 170,
@@ -433,6 +430,7 @@
     "timeMonth": 162,
     "timeYear": 170,
     "dailyMinutesDown": {
+      "2025-11-21": 0,
       "2025-11-18": 36,
       "2025-11-17": 37,
       "2025-11-12": 35,
