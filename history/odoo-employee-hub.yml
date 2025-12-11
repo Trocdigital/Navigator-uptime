@@ -1,7 +1,7 @@
 url: https://employee-hub.erp.trocdigital.io/
-status: down
-code: 503
-responseTime: 223
-lastUpdated: 2025-12-11T23:02:46.235Z
+status: up
+code: 200
+responseTime: 529
+lastUpdated: 2025-12-11T23:10:48.436Z
 startTime: 2025-09-13T15:46:16.516Z
 generator: Upptime <https://github.com/upptime/upptime>
