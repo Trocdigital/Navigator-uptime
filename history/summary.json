@@ -14,7 +14,7 @@
     "timeDay": 438,
     "timeWeek": 373,
     "timeMonth": 336,
-    "timeYear": 361,
+    "timeYear": 360,
     "dailyMinutesDown": {}
   },
   {
@@ -32,7 +32,7 @@
     "timeDay": 418,
     "timeWeek": 363,
     "timeMonth": 304,
-    "timeYear": 365,
+    "timeYear": 364,
     "dailyMinutesDown": {
       "2025-10-07": 34,
       "2025-09-29": 42,
@@ -86,7 +86,7 @@
     "timeDay": 700,
     "timeWeek": 566,
     "timeMonth": 510,
-    "timeYear": 528,
+    "timeYear": 526,
     "dailyMinutesDown": {
       "2025-10-10": 46,
       "2025-10-09": 513,
@@ -128,7 +128,7 @@
     "timeDay": 496,
     "timeWeek": 375,
     "timeMonth": 338,
-    "timeYear": 428,
+    "timeYear": 429,
     "dailyMinutesDown": {
       "2024-12-18": 59,
       "2024-12-12": 10
@@ -172,7 +172,7 @@
     "timeDay": 433,
     "timeWeek": 611,
     "timeMonth": 580,
-    "timeYear": 469,
+    "timeYear": 471,
     "dailyMinutesDown": {
       "2025-11-05": 19,
       "2025-10-23": 19
@@ -315,19 +315,19 @@
     "url": "https://employee-hub.erp.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/employee-hub.erp.trocdigital.io.ico",
     "slug": "odoo-employee-hub",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.99%",
-    "time": 578,
-    "timeDay": 223,
-    "timeWeek": 323,
-    "timeMonth": 364,
-    "timeYear": 578,
+    "status": "up",
+    "uptime": "99.98%",
+    "uptimeDay": "99.44%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.98%",
+    "time": 577,
+    "timeDay": 376,
+    "timeWeek": 349,
+    "timeMonth": 369,
+    "timeYear": 577,
     "dailyMinutesDown": {
-      "2025-12-11": 0,
+      "2025-12-11": 8,
       "2025-10-30": 15
     }
   },
