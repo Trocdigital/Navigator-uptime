@@ -49,8 +49,7 @@
       "2024-12-16": 63,
       "2024-12-15": 59,
       "2024-12-14": 64,
-      "2024-12-13": 62,
-      "2024-12-12": 63
+      "2024-12-13": 62
     }
   },
   {
@@ -130,8 +129,7 @@
     "timeMonth": 338,
     "timeYear": 429,
     "dailyMinutesDown": {
-      "2024-12-18": 59,
-      "2024-12-12": 10
+      "2024-12-18": 59
     }
   },
   {
@@ -316,18 +314,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/employee-hub.erp.trocdigital.io.ico",
     "slug": "odoo-employee-hub",
     "status": "up",
-    "uptime": "99.98%",
-    "uptimeDay": "99.44%",
-    "uptimeWeek": "99.92%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
+    "uptime": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "99.99%",
     "time": 577,
     "timeDay": 376,
     "timeWeek": 349,
     "timeMonth": 369,
     "timeYear": 577,
     "dailyMinutesDown": {
-      "2025-12-11": 8,
       "2025-10-30": 15
     }
   },
@@ -396,9 +393,9 @@
     "slug": "we-protec-u-production-global-leaks",
     "status": "up",
     "uptime": "99.42%",
-    "uptimeDay": "97.34%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "99.62%",
-    "uptimeMonth": "99.50%",
+    "uptimeMonth": "99.58%",
     "uptimeYear": "99.42%",
     "time": 170,
     "timeDay": 269,
