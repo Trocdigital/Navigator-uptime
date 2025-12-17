@@ -44,8 +44,7 @@
       "2024-12-21": 61,
       "2024-12-20": 64,
       "2024-12-19": 58,
-      "2024-12-18": 66,
-      "2024-12-17": 62
+      "2024-12-18": 66
     }
   },
   {
@@ -190,8 +189,7 @@
     "timeYear": 401,
     "dailyMinutesDown": {
       "2025-12-07": 921,
-      "2025-12-06": 1002,
-      "2024-12-17": 33
+      "2025-12-06": 1002
     }
   },
   {
@@ -200,18 +198,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api-ai.trocdigital.io.ico",
     "slug": "navigator-api-ai",
     "status": "up",
-    "uptime": "99.52%",
-    "uptimeDay": "99.40%",
-    "uptimeWeek": "99.50%",
-    "uptimeMonth": "99.88%",
-    "uptimeYear": "99.52%",
+    "uptime": "99.53%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "99.58%",
+    "uptimeMonth": "99.90%",
+    "uptimeYear": "99.53%",
     "time": 362,
     "timeDay": 204,
     "timeWeek": 224,
     "timeMonth": 223,
     "timeYear": 362,
     "dailyMinutesDown": {
-      "2025-12-16": 9,
       "2025-12-12": 20,
       "2025-12-10": 23,
       "2025-11-05": 40,
@@ -389,11 +386,11 @@
     "url": "https://weprotectu.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/weprotectu.trocdigital.io.ico",
     "slug": "we-protec-u-production-global-leaks",
-    "status": "up",
+    "status": "down",
     "uptime": "99.45%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "99.62%",
-    "uptimeMonth": "99.58%",
+    "uptimeMonth": "99.59%",
     "uptimeYear": "99.45%",
     "time": 168,
     "timeDay": 109,
@@ -401,6 +398,7 @@
     "timeMonth": 158,
     "timeYear": 168,
     "dailyMinutesDown": {
+      "2025-12-17": 0,
       "2025-12-11": 38,
       "2025-12-04": 37,
       "2025-11-21": 36,
