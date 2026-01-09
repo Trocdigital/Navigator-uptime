@@ -1,7 +1,7 @@
 url: https://bose.tickets.trocdigital.io/
-status: up
-code: 200
-responseTime: 462
-lastUpdated: 2026-01-08T23:02:25.998Z
+status: down
+code: 503
+responseTime: 478
+lastUpdated: 2026-01-09T19:42:50.417Z
 startTime: 2024-10-10T22:04:19.339Z
 generator: Upptime <https://github.com/upptime/upptime>
