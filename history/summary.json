@@ -321,19 +321,19 @@
     "url": "https://roadshows.erp.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/roadshows.erp.trocdigital.io.ico",
     "slug": "odoo-roadshow",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "97.32%",
-    "uptimeWeek": "99.62%",
-    "uptimeMonth": "99.91%",
-    "uptimeYear": "99.98%",
-    "time": 339,
-    "timeDay": 396,
-    "timeWeek": 393,
-    "timeMonth": 354,
-    "timeYear": 339,
+    "status": "up",
+    "uptime": "99.96%",
+    "uptimeDay": "94.93%",
+    "uptimeWeek": "99.28%",
+    "uptimeMonth": "99.83%",
+    "uptimeYear": "99.96%",
+    "time": 342,
+    "timeDay": 505,
+    "timeWeek": 421,
+    "timeMonth": 362,
+    "timeYear": 342,
     "dailyMinutesDown": {
-      "2026-01-16": 39
+      "2026-01-16": 73
     }
   },
   {
