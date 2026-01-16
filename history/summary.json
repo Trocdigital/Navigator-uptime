@@ -5,7 +5,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/navigator.trocdigital.io.ico",
     "slug": "navigator",
     "status": "up",
-    "uptime": "78.10%",
+    "uptime": "78.11%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -300,10 +300,10 @@
     "url": "https://employee-hub.erp.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/employee-hub.erp.trocdigital.io.ico",
     "slug": "odoo-employee-hub",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 518,
@@ -312,6 +312,7 @@
     "timeMonth": 358,
     "timeYear": 518,
     "dailyMinutesDown": {
+      "2026-01-16": 1,
       "2025-10-30": 15
     }
   },
@@ -320,10 +321,10 @@
     "url": "https://roadshows.erp.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/roadshows.erp.trocdigital.io.ico",
     "slug": "odoo-roadshow",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 339,
@@ -331,7 +332,9 @@
     "timeWeek": 393,
     "timeMonth": 354,
     "timeYear": 339,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-01-16": 1
+    }
   },
   {
     "name": "CRM ATT Odoo",
