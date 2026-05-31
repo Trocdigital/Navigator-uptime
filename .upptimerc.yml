@@ -15,8 +15,6 @@ sites:
     url: https://support.trocdigital.io/
   - name: Ticket System  Zammad Pokemon Trocglobal
     url: https://pokemon.tickets.trocdigital.io/
-  - name: Ticket System  Zammad Bose Trocglobal
-    url: https://bose.tickets.trocdigital.io/
   - name: Troc ERP Odoo
     url: https://troc.erp.trocdigital.io/web/login
   - name: Ticket System  Odoo Polestar CRM
@@ -27,8 +25,6 @@ sites:
     url: https://apple.tickets.trocdigital.io/
   - name: Superset Prod
     url: https://superset.trocdigital.io/login/
-  - name: N8N Production
-    url: https://n8n.trocdigital.io/
   - name: DataIntegrator API Production (Scheduler)
     url: https://data.trocdigital.io/ping
   - name: Odoo EmployeeHub
