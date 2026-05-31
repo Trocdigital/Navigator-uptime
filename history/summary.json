@@ -147,7 +147,7 @@
     "uptime": "98.25%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "66.19%",
+    "uptimeMonth": "66.18%",
     "uptimeYear": "97.15%",
     "time": 343,
     "timeDay": 149,
@@ -160,7 +160,7 @@
       "2025-11-03": 21,
       "2026-03-06": 21,
       "2026-04-23": 72,
-      "2026-05-31": 79,
+      "2026-05-31": 82,
       "2026-05-30": 1440,
       "2026-05-29": 1440,
       "2026-05-28": 1440,
@@ -530,17 +530,17 @@
     "url": "https://weprotectu.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/weprotectu.trocdigital.io.ico",
     "slug": "we-protec-u-production-global-leaks",
-    "status": "down",
+    "status": "up",
     "uptime": "99.14%",
-    "uptimeDay": "94.73%",
-    "uptimeWeek": "98.51%",
+    "uptimeDay": "94.60%",
+    "uptimeWeek": "98.49%",
     "uptimeMonth": "98.89%",
     "uptimeYear": "99.14%",
-    "time": 169,
-    "timeDay": 160,
-    "timeWeek": 129,
+    "time": 168,
+    "timeDay": 148,
+    "timeWeek": 130,
     "timeMonth": 137,
-    "timeYear": 169,
+    "timeYear": 168,
     "dailyMinutesDown": {
       "2025-09-15": 37,
       "2025-09-17": 33,
@@ -602,7 +602,7 @@
       "2026-05-16": 63,
       "2026-05-21": 71,
       "2026-05-27": 74,
-      "2026-05-31": 76
+      "2026-05-31": 78
     }
   }
 ]
