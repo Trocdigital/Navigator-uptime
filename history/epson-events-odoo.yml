@@ -1,7 +1,7 @@
 url: https://epson-events.erp.trocdigital.io/
-status: up
-code: 200
-responseTime: 641
-lastUpdated: 2026-06-12T23:28:48.262Z
+status: down
+code: 503
+responseTime: 42
+lastUpdated: 2026-06-13T11:26:52.333Z
 startTime: 2025-09-13T15:46:18.725Z
 generator: Upptime <https://github.com/upptime/upptime>
