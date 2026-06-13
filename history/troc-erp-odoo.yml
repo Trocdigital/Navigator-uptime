@@ -1,7 +1,7 @@
 url: https://troc.erp.trocdigital.io/web/login
-status: down
-code: 503
-responseTime: 58
-lastUpdated: 2026-06-13T11:26:31.191Z
+status: up
+code: 200
+responseTime: 550
+lastUpdated: 2026-06-13T12:03:50.939Z
 startTime: 2024-10-10T22:04:20.128Z
 generator: Upptime <https://github.com/upptime/upptime>
