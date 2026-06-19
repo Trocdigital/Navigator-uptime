@@ -106,15 +106,15 @@
     "url": "https://pokemon.tickets.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/pokemon.tickets.trocdigital.io.ico",
     "slug": "ticket-system-zammad-pokemon-trocglobal",
-    "status": "down",
+    "status": "up",
     "uptime": "99.87%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "99.61%",
-    "uptimeMonth": "99.40%",
-    "uptimeYear": "99.86%",
+    "uptimeDay": "97.91%",
+    "uptimeWeek": "99.32%",
+    "uptimeMonth": "99.33%",
+    "uptimeYear": "99.85%",
     "time": 344,
-    "timeDay": 192,
-    "timeWeek": 333,
+    "timeDay": 226,
+    "timeWeek": 329,
     "timeMonth": 299,
     "timeYear": 356,
     "dailyMinutesDown": {
@@ -139,7 +139,7 @@
       "2026-06-09": 42,
       "2026-06-10": 71,
       "2026-06-13": 39,
-      "2026-06-19": 0
+      "2026-06-19": 30
     }
   },
   {
