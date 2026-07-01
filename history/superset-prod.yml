@@ -1,7 +1,7 @@
 url: https://superset.trocdigital.io/login/
-status: up
-code: 200
-responseTime: 560
-lastUpdated: 2026-06-30T23:26:11.011Z
+status: down
+code: 503
+responseTime: 49
+lastUpdated: 2026-07-01T16:12:18.983Z
 startTime: 2025-09-13T14:45:11.034Z
 generator: Upptime <https://github.com/upptime/upptime>
