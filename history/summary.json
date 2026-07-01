@@ -275,20 +275,20 @@
     "url": "https://superset.trocdigital.io/login/",
     "icon": "https://icons.duckduckgo.com/ip3/superset.trocdigital.io.ico",
     "slug": "superset-prod",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.99%",
-    "time": 475,
-    "timeDay": 305,
-    "timeWeek": 494,
-    "timeMonth": 577,
-    "timeYear": 475,
+    "status": "up",
+    "uptime": "99.98%",
+    "uptimeDay": "96.64%",
+    "uptimeWeek": "99.52%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "99.98%",
+    "time": 476,
+    "timeDay": 461,
+    "timeWeek": 525,
+    "timeMonth": 583,
+    "timeYear": 476,
     "dailyMinutesDown": {
       "2025-11-30": 50,
-      "2026-07-01": 0
+      "2026-07-01": 48
     }
   },
   {
