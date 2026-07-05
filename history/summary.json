@@ -354,11 +354,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/roadshows.erp.trocdigital.io.ico",
     "slug": "odoo-roadshow",
     "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.98%",
+    "uptime": "99.97%",
+    "uptimeDay": "96.70%",
+    "uptimeWeek": "99.53%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "99.97%",
     "time": 405,
     "timeDay": 842,
     "timeWeek": 811,
@@ -367,7 +367,7 @@
     "dailyMinutesDown": {
       "2026-01-16": 73,
       "2026-03-31": 22,
-      "2026-07-05": 1
+      "2026-07-05": 47
     }
   },
   {
@@ -457,7 +457,7 @@
     "status": "up",
     "uptime": "99.14%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "98.82%",
+    "uptimeWeek": "99.28%",
     "uptimeMonth": "99.01%",
     "uptimeYear": "99.14%",
     "time": 167,
