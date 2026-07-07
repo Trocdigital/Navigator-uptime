@@ -191,16 +191,16 @@
     "url": "https://api-ai.trocdigital.io/ping",
     "icon": "https://icons.duckduckgo.com/ip3/api-ai.trocdigital.io.ico",
     "slug": "navigator-api-ai",
-    "status": "down",
-    "uptime": "98.76%",
-    "uptimeDay": "97.43%",
-    "uptimeWeek": "99.63%",
-    "uptimeMonth": "99.66%",
-    "uptimeYear": "98.76%",
+    "status": "up",
+    "uptime": "98.75%",
+    "uptimeDay": "95.78%",
+    "uptimeWeek": "99.40%",
+    "uptimeMonth": "99.61%",
+    "uptimeYear": "98.75%",
     "time": 329,
-    "timeDay": 284,
-    "timeWeek": 227,
-    "timeMonth": 208,
+    "timeDay": 216,
+    "timeWeek": 210,
+    "timeMonth": 205,
     "timeYear": 329,
     "dailyMinutesDown": {
       "2025-09-18": 16,
@@ -245,7 +245,7 @@
       "2026-06-11": 51,
       "2026-06-19": 29,
       "2026-06-25": 30,
-      "2026-07-07": 37
+      "2026-07-07": 60
     }
   },
   {
