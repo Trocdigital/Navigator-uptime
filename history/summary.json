@@ -192,11 +192,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/api-ai.trocdigital.io.ico",
     "slug": "navigator-api-ai",
     "status": "up",
-    "uptime": "98.75%",
-    "uptimeDay": "94.07%",
-    "uptimeWeek": "98.55%",
-    "uptimeMonth": "99.53%",
-    "uptimeYear": "98.75%",
+    "uptime": "98.76%",
+    "uptimeDay": "95.07%",
+    "uptimeWeek": "98.69%",
+    "uptimeMonth": "99.56%",
+    "uptimeYear": "98.76%",
     "time": 375,
     "timeDay": 10239,
     "timeWeek": 2234,
@@ -246,7 +246,7 @@
       "2026-06-19": 29,
       "2026-06-25": 30,
       "2026-07-07": 60,
-      "2026-07-12": 85
+      "2026-07-12": 71
     }
   },
   {
@@ -460,7 +460,7 @@
     "uptime": "99.14%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.03%",
-    "uptimeMonth": "98.95%",
+    "uptimeMonth": "99.07%",
     "uptimeYear": "99.14%",
     "time": 167,
     "timeDay": 199,
