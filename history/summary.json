@@ -194,7 +194,7 @@
     "status": "up",
     "uptime": "98.54%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "89.51%",
+    "uptimeWeek": "89.96%",
     "uptimeMonth": "97.10%",
     "uptimeYear": "98.54%",
     "time": 438,
@@ -326,11 +326,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/employee-hub.erp.trocdigital.io.ico",
     "slug": "odoo-employee-hub",
     "status": "up",
-    "uptime": "96.35%",
+    "uptime": "96.36%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "96.35%",
+    "uptimeYear": "96.36%",
     "time": 460,
     "timeDay": 401,
     "timeWeek": 574,
@@ -460,11 +460,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/weprotectu.trocdigital.io.ico",
     "slug": "we-protec-u-production-global-leaks",
     "status": "down",
-    "uptime": "99.15%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.54%",
-    "uptimeMonth": "99.20%",
-    "uptimeYear": "99.15%",
+    "uptime": "99.14%",
+    "uptimeDay": "96.85%",
+    "uptimeWeek": "99.10%",
+    "uptimeMonth": "99.10%",
+    "uptimeYear": "99.14%",
     "time": 168,
     "timeDay": 250,
     "timeWeek": 180,
@@ -541,7 +541,7 @@
       "2026-07-10": 51,
       "2026-07-11": 47,
       "2026-07-18": 45,
-      "2026-07-21": 1
+      "2026-07-21": 45
     }
   }
 ]
