@@ -461,17 +461,17 @@
     "url": "https://weprotectu.trocdigital.io/",
     "icon": "https://icons.duckduckgo.com/ip3/weprotectu.trocdigital.io.ico",
     "slug": "we-protec-u-production-global-leaks",
-    "status": "down",
+    "status": "up",
     "uptime": "99.15%",
-    "uptimeDay": "97.16%",
-    "uptimeWeek": "99.09%",
+    "uptimeDay": "97.05%",
+    "uptimeWeek": "99.07%",
     "uptimeMonth": "99.23%",
     "uptimeYear": "99.15%",
-    "time": 168,
-    "timeDay": 147,
-    "timeWeek": 164,
-    "timeMonth": 177,
-    "timeYear": 168,
+    "time": 169,
+    "timeDay": 224,
+    "timeWeek": 179,
+    "timeMonth": 181,
+    "timeYear": 169,
     "dailyMinutesDown": {
       "2025-09-15": 37,
       "2025-09-17": 33,
@@ -545,7 +545,7 @@
       "2026-07-18": 45,
       "2026-07-21": 46,
       "2026-07-23": 51,
-      "2026-07-29": 41
+      "2026-07-29": 43
     }
   }
 ]
