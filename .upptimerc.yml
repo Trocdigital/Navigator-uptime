@@ -63,4 +63,11 @@ notifications:
     sendDown: true
     sendUp: true
 
+# Checks run every 30 minutes instead of every 5: with 17 endpoints and 3 retries
+# each (30s timeout per attempt), a runner with degraded networking needs over an
+# hour to finish one pass, which made runs overlap and queue up, producing a
+# cascade of false-alarm incidents (see issues #754-#767).
+workflowSchedule:
+  uptime: "*/30 * * * *"
+
 
