@@ -274,7 +274,7 @@ function renderBanner(sites) {
     banner.innerHTML = `Degraded performance: ${degraded.map(s => escapeHtml(s.name)).join(", ")}`;
   } else {
     banner.classList.add("ok");
-    banner.innerHTML = `All systems operational <small>${sites.length} services monitored</small>`;
+    banner.innerHTML = `All systems operational`;
   }
 }
 
