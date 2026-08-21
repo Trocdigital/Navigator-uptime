@@ -43,7 +43,7 @@ status-website:
   # Custom domain: CNAME record in Route53 (zone dev.trocdigital.io) -> trocdigital.github.io
   # With a custom domain the site is served from the root, so baseUrl must not be set
   cname: navigator-status.dev.trocdigital.io
-  logoUrl: https://navigator.trocdigital.io/static/icons/favicon.ico
+  logoUrl: https://navigator-status.dev.trocdigital.io/favicon.ico
   name: Navigator Status Page
   introTitle: "**Navigator** services uptime monitor and status page."
   introMessage: See below the health check of all Navigator services
