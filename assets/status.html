@@ -261,7 +261,6 @@ function renderSite(site) {
     <div class="component">
       <div class="component-row">
         <span class="component-name"><a href="./history/${site.slug}">${escapeHtml(site.name)}</a></span>
-        <span class="component-meta num">${site.time} ms</span>
         <span class="component-status st-${st}">${STATUS_LABEL[st] || st}</span>
       </div>
       <div class="bars">${bars}</div>
