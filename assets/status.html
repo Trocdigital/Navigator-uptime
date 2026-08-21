@@ -5,164 +5,182 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Navigator Status</title>
 <link rel="icon" href="https://navigator.trocdigital.io/static/icons/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #f6f8fa;
+    --bg: #faf9f7;
     --card: #ffffff;
-    --border: #e4e8ee;
-    --text: #16202b;
-    --text-muted: #66707c;
-    --green: #23a55a;
-    --yellow: #e8a812;
-    --orange: #e8710a;
-    --red: #dc3d33;
-    --gray: #d8dde3;
-    --link: #2563eb;
-    --shadow: 0 1px 3px rgba(16, 24, 40, .07), 0 1px 2px rgba(16, 24, 40, .04);
-    --tip-bg: #16202b;
-    --tip-text: #f6f8fa;
+    --border: #e9e6e0;
+    --border-soft: #f0eee9;
+    --text: #21201d;
+    --text-muted: #85817a;
+    --green: #1fa06a;
+    --yellow: #d9a514;
+    --orange: #d97917;
+    --red: #d2483e;
+    --gray: #e4e1db;
+    --link: #21201d;
+    --banner-ok: #1fa06a;
+    --banner-warn: #d97917;
+    --banner-down: #d2483e;
+    --tip-bg: #21201d;
+    --tip-text: #faf9f7;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #0d1117;
-      --card: #161c24;
-      --border: #2a323d;
-      --text: #e9edf2;
-      --text-muted: #939ea9;
-      --green: #2fbf71;
+      --bg: #1a1915;
+      --card: #21201c;
+      --border: #35332d;
+      --border-soft: #2b2925;
+      --text: #edeae4;
+      --text-muted: #8f8b83;
+      --green: #35b57e;
       --yellow: #d9a514;
-      --red: #e5534b;
-      --gray: #333d49;
-      --link: #79a8ff;
-      --shadow: 0 1px 3px rgba(0, 0, 0, .4);
-      --tip-bg: #e9edf2;
-      --tip-text: #0d1117;
+      --orange: #e08a2e;
+      --red: #e0655c;
+      --gray: #3a3831;
+      --link: #edeae4;
+      --banner-ok: #1e8f60;
+      --banner-warn: #c46f16;
+      --banner-down: #bf4238;
+      --tip-bg: #edeae4;
+      --tip-text: #1a1915;
     }
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background: var(--bg);
     color: var(--text);
-    line-height: 1.5;
+    line-height: 1.55;
+    font-size: 14px;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
-  .wrap { max-width: 880px; margin: 0 auto; padding: 24px 16px 64px; }
-  header { display: flex; align-items: center; gap: 12px; padding: 16px 0 28px; }
-  header img { width: 32px; height: 32px; border-radius: 6px; }
-  header h1 { font-size: 20px; font-weight: 650; letter-spacing: -.01em; }
+  .num { font-variant-numeric: tabular-nums; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px 72px; }
+
+  header { display: flex; align-items: center; gap: 10px; padding: 44px 0 36px; }
+  header img { width: 24px; height: 24px; border-radius: 5px; }
+  header h1 { font-size: 15px; font-weight: 600; letter-spacing: -.01em; }
+  header .divider { color: var(--border); font-weight: 400; }
+  header .sub { font-size: 15px; font-weight: 400; color: var(--text-muted); }
 
   .banner {
-    border-radius: 10px; padding: 18px 22px; color: #fff;
-    font-size: 17px; font-weight: 600; margin-bottom: 12px;
-    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
-    box-shadow: var(--shadow);
+    border-radius: 10px; padding: 15px 18px; color: #fff;
+    font-size: 15px; font-weight: 600; letter-spacing: -.005em;
+    margin-bottom: 14px;
+    display: flex; align-items: center; gap: 10px;
   }
-  .banner small { font-weight: 400; font-size: 12px; opacity: .9; }
-  .banner.ok { background: var(--green); }
-  .banner.warn { background: var(--orange); }
-  .banner.down { background: var(--red); }
-  .banner.loading { background: var(--card); color: var(--text-muted); border: 1px solid var(--border); }
+  .banner svg { flex: none; width: 18px; height: 18px; }
+  .banner.ok { background: var(--banner-ok); }
+  .banner.warn { background: var(--banner-warn); }
+  .banner.down { background: var(--banner-down); }
+  .banner.loading { background: var(--card); color: var(--text-muted); border: 1px solid var(--border); font-weight: 400; }
 
-  #incidents { margin-bottom: 24px; }
+  #incidents { margin-bottom: 28px; }
   .incident {
     background: var(--card); border: 1px solid var(--border);
-    border-left: 4px solid var(--red); border-radius: 10px;
-    padding: 14px 18px; margin-bottom: 10px; font-size: 14px;
-    box-shadow: var(--shadow);
+    border-radius: 10px; padding: 16px 18px; margin-bottom: 10px;
   }
-  .incident.minor { border-left-color: var(--yellow); }
+  .incident-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
   .sev-badge {
-    display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase;
-    letter-spacing: .05em; padding: 2px 8px; border-radius: 999px; margin-right: 8px;
-    vertical-align: 2px; color: #fff; background: var(--red);
+    flex: none; font-size: 10px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: .08em; padding: 2px 8px; border-radius: 99px;
+    color: #fff; background: var(--red); align-self: center;
   }
   .incident.minor .sev-badge { background: var(--yellow); }
-  .incident a { color: var(--link); text-decoration: none; font-weight: 600; }
-  .incident a:hover { text-decoration: underline; }
-  .incident .detail { font-size: 12px; color: var(--text-muted); margin-top: 3px; }
-  .updates { margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 10px; }
-  .update { font-size: 13px; margin-bottom: 10px; }
+  .incident a { color: var(--link); text-decoration: none; font-weight: 600; font-size: 14px; }
+  .incident a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .incident .detail { font-size: 12px; color: var(--text-muted); margin-left: auto; }
+  .updates { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border-soft); }
+  .update { position: relative; padding-left: 16px; margin-bottom: 12px; }
   .update:last-child { margin-bottom: 0; }
-  .update .update-meta { font-size: 11px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
-  .update .update-body { margin-top: 2px; white-space: pre-wrap; }
+  .update::before {
+    content: ""; position: absolute; left: 2px; top: 7px;
+    width: 5px; height: 5px; border-radius: 50%; background: var(--text-muted);
+  }
+  .update .update-meta { font-size: 11px; font-weight: 500; color: var(--text-muted); }
+  .update .update-body { margin-top: 1px; white-space: pre-wrap; font-size: 13px; }
 
+  section { margin-bottom: 28px; }
+  .group-title {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: .1em; color: var(--text-muted);
+    padding: 0 2px 10px;
+    display: flex; justify-content: space-between; align-items: baseline;
+  }
+  .group-title .g-state { letter-spacing: .02em; text-transform: none; font-size: 12px; }
   .group {
     background: var(--card); border: 1px solid var(--border);
-    border-radius: 10px; margin-bottom: 16px; overflow: hidden;
-    box-shadow: var(--shadow);
+    border-radius: 12px; overflow: hidden;
   }
-  .group-header {
-    padding: 12px 20px; font-weight: 650; font-size: 12px;
-    border-bottom: 1px solid var(--border);
-    display: flex; justify-content: space-between; align-items: center;
-    color: var(--text-muted); text-transform: uppercase; letter-spacing: .06em;
-    background: color-mix(in srgb, var(--bg) 45%, var(--card));
-  }
-  .component { padding: 15px 20px; border-bottom: 1px solid var(--border); }
+  .component { padding: 16px 18px; border-bottom: 1px solid var(--border-soft); }
   .component:last-child { border-bottom: none; }
-  .component-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
-  .dot {
-    width: 8px; height: 8px; border-radius: 50%; display: inline-block;
-    background: var(--green); margin-right: 2px; align-self: center;
-  }
-  .dot.d-degraded { background: var(--orange); }
-  .dot.d-down { background: var(--red); }
-  .component-name { font-weight: 550; font-size: 15px; }
+  .component-row { display: flex; align-items: baseline; gap: 10px; }
+  .component-name { font-weight: 500; font-size: 14px; letter-spacing: -.005em; min-width: 0; }
   .component-name a { color: inherit; text-decoration: none; }
-  .component-name a:hover { text-decoration: underline; }
-  .component-meta { font-size: 12px; color: var(--text-muted); }
-  .component-status { margin-left: auto; font-size: 13px; font-weight: 600; }
+  .component-name a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .component-meta { font-size: 12px; color: var(--text-muted); flex: none; }
+  .component-status { margin-left: auto; font-size: 12.5px; font-weight: 500; flex: none; }
   .st-up { color: var(--green); }
   .st-degraded { color: var(--orange); }
   .st-down { color: var(--red); }
 
-  .bars { display: flex; gap: 2px; margin-top: 10px; height: 26px; }
+  .bars { display: flex; gap: 3px; margin-top: 12px; height: 30px; }
   .bars span {
     flex: 1; border-radius: 2px; background: var(--green);
-    position: relative; cursor: default; transition: opacity .1s;
+    position: relative; cursor: default;
   }
-  .bars span:hover { opacity: .75; }
+  .bars span:hover { filter: brightness(1.15); }
   .bars span.b-yellow { background: var(--yellow); }
   .bars span.b-orange { background: var(--orange); }
   .bars span.b-red { background: var(--red); }
   .bars span.b-empty { background: var(--gray); }
   .bars span:hover::after {
     content: attr(data-tip);
-    position: absolute; bottom: 33px; left: 50%; transform: translateX(-50%);
+    position: absolute; bottom: 37px; left: 50%; transform: translateX(-50%);
     background: var(--tip-bg); color: var(--tip-text);
-    padding: 5px 10px; border-radius: 6px; font-size: 11px; font-weight: 500; white-space: nowrap;
-    z-index: 10; pointer-events: none; box-shadow: var(--shadow);
+    padding: 5px 10px; border-radius: 6px;
+    font-size: 11px; font-weight: 500; letter-spacing: 0; white-space: nowrap;
+    z-index: 10; pointer-events: none;
+  }
+  @media (max-width: 560px) {
+    .bars span:nth-child(-n+45) { display: none; }  /* on small screens show the last 45 days */
   }
   .bars-legend {
-    display: flex; justify-content: space-between; margin-top: 7px;
-    font-size: 11px; color: var(--text-muted);
+    display: flex; justify-content: space-between; margin-top: 8px;
+    font-size: 11px; font-weight: 500; color: var(--text-muted);
   }
-  .none-msg { color: var(--text-muted); font-size: 14px; }
 
   footer {
-    margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--border);
+    margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--border);
     font-size: 12px; color: var(--text-muted);
     display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;
   }
-  footer a { color: var(--link); text-decoration: none; }
-  footer a:hover { text-decoration: underline; }
+  footer a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+  footer a:hover { color: var(--text); }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
     <img src="https://navigator.trocdigital.io/static/icons/favicon.ico" alt="">
-    <h1>Navigator Status</h1>
+    <h1>Navigator</h1>
+    <span class="divider">/</span>
+    <span class="sub">Status</span>
   </header>
 
-  <div id="banner" class="banner loading">Loading service status…</div>
+  <div id="banner" class="banner loading">Checking service status…</div>
   <div id="incidents"></div>
   <div id="groups"></div>
 
   <footer>
-    <span>Last updated: <span id="updated">—</span> · refreshes every 5 min</span>
-    <span>Powered by <a href="https://github.com/Trocdigital/Navigator-uptime" target="_blank" rel="noopener">Upptime</a> · <a href="./">classic view</a></span>
+    <span>Updated <span id="updated" class="num">—</span> · refreshes every 5 minutes</span>
+    <span>Powered by <a href="https://github.com/Trocdigital/Navigator-uptime" target="_blank" rel="noopener">Upptime</a></span>
   </footer>
 </div>
 
@@ -191,6 +209,11 @@ const GROUPS = [
 ];
 
 const STATUS_LABEL = { up: "Operational", degraded: "Degraded", down: "Down" };
+
+const ICONS = {
+  ok: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="m8.5 12.5 2.5 2.5 4.5-5.5"/></svg>',
+  alert: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M12 7.5v5.5"/><circle cx="12" cy="16.5" r=".5" fill="currentColor"/></svg>',
+};
 
 function dayKey(d) { return d.toISOString().slice(0, 10); }
 
@@ -228,7 +251,7 @@ function renderSite(site) {
   const bars = days.map(day => {
     const min = downMap[day] || 0;
     totalDown += min;
-    const tip = `${fmtDate(day + "T00:00:00Z", { day: "numeric", month: "short" })}: ` +
+    const tip = `${fmtDate(day + "T00:00:00Z", { day: "numeric", month: "short" })} · ` +
       (min === 0 ? "no incidents" : `${min} min down`);
     return `<span class="${barClass(min)}" data-tip="${tip}"></span>`;
   }).join("");
@@ -237,14 +260,13 @@ function renderSite(site) {
   return `
     <div class="component">
       <div class="component-row">
-        <span class="dot d-${st}"></span>
         <span class="component-name"><a href="./history/${site.slug}">${escapeHtml(site.name)}</a></span>
-        <span class="component-meta">${site.time} ms</span>
+        <span class="component-meta num">${site.time} ms</span>
         <span class="component-status st-${st}">${STATUS_LABEL[st] || st}</span>
       </div>
       <div class="bars">${bars}</div>
       <div class="bars-legend">
-        <span>${DAYS} days ago</span><span>${uptime90}% uptime</span><span>Today</span>
+        <span>${DAYS} days ago</span><span class="num">${uptime90}% uptime</span><span>Today</span>
       </div>
     </div>`;
 }
@@ -261,10 +283,10 @@ function renderGroups(sites) {
     const groupDegraded = members.some(s => s.status === "degraded");
     const gl = groupDown ? ["st-down", "Outage"] : groupDegraded ? ["st-degraded", "Degraded"] : ["st-up", "Operational"];
     return `
-      <div class="group">
-        <div class="group-header"><span>${g.title}</span><span class="${gl[0]}">${gl[1]}</span></div>
-        ${members.map(renderSite).join("")}
-      </div>`;
+      <section>
+        <div class="group-title"><span>${g.title}</span><span class="g-state ${gl[0]}">${gl[1]}</span></div>
+        <div class="group">${members.map(renderSite).join("")}</div>
+      </section>`;
   }).join("");
 }
 
@@ -275,13 +297,13 @@ function renderBanner(sites) {
   banner.classList.remove("loading", "ok", "warn", "down");
   if (down.length) {
     banner.classList.add("down");
-    banner.innerHTML = `Ongoing outage: ${down.map(s => escapeHtml(s.name)).join(", ")}`;
+    banner.innerHTML = `${ICONS.alert} Ongoing outage: ${down.map(s => escapeHtml(s.name)).join(", ")}`;
   } else if (degraded.length) {
     banner.classList.add("warn");
-    banner.innerHTML = `Degraded performance: ${degraded.map(s => escapeHtml(s.name)).join(", ")}`;
+    banner.innerHTML = `${ICONS.alert} Degraded performance: ${degraded.map(s => escapeHtml(s.name)).join(", ")}`;
   } else {
     banner.classList.add("ok");
-    banner.innerHTML = `All systems operational`;
+    banner.innerHTML = `${ICONS.ok} All systems operational`;
   }
 }
 
@@ -330,9 +352,11 @@ async function renderIncidents(issues) {
     const minor = labels.includes("minor") && !labels.includes("major");
     return `
     <div class="incident${minor ? " minor" : ""}">
-      <span class="sev-badge">${minor ? "Minor" : "Major"}</span>
-      <a href="${i.html_url}" target="_blank" rel="noopener">${escapeHtml(i.title)}</a>
-      <div class="detail">Started ${fmtAgo(Date.now() - new Date(i.created_at))}</div>
+      <div class="incident-head">
+        <span class="sev-badge">${minor ? "Minor" : "Major"}</span>
+        <a href="${i.html_url}" target="_blank" rel="noopener">${escapeHtml(i.title)}</a>
+        <span class="detail">Started ${fmtAgo(Date.now() - new Date(i.created_at))}</span>
+      </div>
       ${renderUpdates(i)}
     </div>`;
   }).join("");
@@ -351,7 +375,8 @@ async function load() {
     renderGroups(sites);
     // Active incidents are secondary: a GitHub API rate limit must not break the page
     if (issuesRes.ok) await renderIncidents(await issuesRes.json());
-    document.getElementById("updated").textContent = new Date().toLocaleTimeString("en-US");
+    document.getElementById("updated").textContent =
+      new Date().toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit" });
   } catch (e) {
     const banner = document.getElementById("banner");
     banner.classList.remove("loading", "ok", "warn");
