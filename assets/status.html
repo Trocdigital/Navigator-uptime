@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,27 +7,36 @@
 <link rel="icon" href="https://navigator.trocdigital.io/static/icons/favicon.ico">
 <style>
   :root {
-    --bg: #f1f3f5;
+    --bg: #f6f8fa;
     --card: #ffffff;
-    --border: #e3e6e9;
-    --text: #1a202c;
-    --text-muted: #6b7480;
-    --green: #2fbf71;
-    --yellow: #f2b01e;
+    --border: #e4e8ee;
+    --text: #16202b;
+    --text-muted: #66707c;
+    --green: #23a55a;
+    --yellow: #e8a812;
     --orange: #e8710a;
-    --red: #e0453a;
-    --gray: #d5dade;
+    --red: #dc3d33;
+    --gray: #d8dde3;
     --link: #2563eb;
+    --shadow: 0 1px 3px rgba(16, 24, 40, .07), 0 1px 2px rgba(16, 24, 40, .04);
+    --tip-bg: #16202b;
+    --tip-text: #f6f8fa;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #101418;
-      --card: #181d23;
-      --border: #2a323b;
-      --text: #e8ecf0;
-      --text-muted: #8b96a2;
-      --gray: #333c46;
-      --link: #7aa7ff;
+      --bg: #0d1117;
+      --card: #161c24;
+      --border: #2a323d;
+      --text: #e9edf2;
+      --text-muted: #939ea9;
+      --green: #2fbf71;
+      --yellow: #d9a514;
+      --red: #e5534b;
+      --gray: #333d49;
+      --link: #79a8ff;
+      --shadow: 0 1px 3px rgba(0, 0, 0, .4);
+      --tip-bg: #e9edf2;
+      --tip-text: #0d1117;
     }
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -36,39 +45,66 @@
     background: var(--bg);
     color: var(--text);
     line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
   }
   .wrap { max-width: 880px; margin: 0 auto; padding: 24px 16px 64px; }
-  header { display: flex; align-items: center; gap: 12px; padding: 16px 0 24px; }
-  header img { width: 32px; height: 32px; }
-  header h1 { font-size: 20px; font-weight: 600; }
+  header { display: flex; align-items: center; gap: 12px; padding: 16px 0 28px; }
+  header img { width: 32px; height: 32px; border-radius: 6px; }
+  header h1 { font-size: 20px; font-weight: 650; letter-spacing: -.01em; }
   header .actions { margin-left: auto; font-size: 13px; }
   header .actions a { color: var(--link); text-decoration: none; }
+  header .actions a:hover { text-decoration: underline; }
 
   .banner {
-    border-radius: 8px; padding: 16px 20px; color: #fff;
-    font-size: 17px; font-weight: 600; margin-bottom: 24px;
+    border-radius: 10px; padding: 18px 22px; color: #fff;
+    font-size: 17px; font-weight: 600; margin-bottom: 12px;
     display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
+    box-shadow: var(--shadow);
   }
-  .banner small { font-weight: 400; font-size: 12px; opacity: .85; }
+  .banner small { font-weight: 400; font-size: 12px; opacity: .9; }
   .banner.ok { background: var(--green); }
   .banner.warn { background: var(--orange); }
   .banner.down { background: var(--red); }
-  .banner.loading { background: var(--gray); color: var(--text); }
+  .banner.loading { background: var(--card); color: var(--text-muted); border: 1px solid var(--border); }
+
+  #incidents { margin-bottom: 24px; }
+  .incident {
+    background: var(--card); border: 1px solid var(--border);
+    border-left: 4px solid var(--red); border-radius: 10px;
+    padding: 14px 18px; margin-bottom: 10px; font-size: 14px;
+    box-shadow: var(--shadow);
+  }
+  .incident a { color: var(--link); text-decoration: none; font-weight: 600; }
+  .incident a:hover { text-decoration: underline; }
+  .incident .detail { font-size: 12px; color: var(--text-muted); margin-top: 3px; }
+  .updates { margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 10px; }
+  .update { font-size: 13px; margin-bottom: 10px; }
+  .update:last-child { margin-bottom: 0; }
+  .update .update-meta { font-size: 11px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
+  .update .update-body { margin-top: 2px; white-space: pre-wrap; }
 
   .group {
     background: var(--card); border: 1px solid var(--border);
-    border-radius: 8px; margin-bottom: 16px; overflow: hidden;
+    border-radius: 10px; margin-bottom: 16px; overflow: hidden;
+    box-shadow: var(--shadow);
   }
   .group-header {
-    padding: 12px 20px; font-weight: 600; font-size: 14px;
+    padding: 12px 20px; font-weight: 650; font-size: 12px;
     border-bottom: 1px solid var(--border);
     display: flex; justify-content: space-between; align-items: center;
-    color: var(--text-muted); text-transform: uppercase; letter-spacing: .04em;
+    color: var(--text-muted); text-transform: uppercase; letter-spacing: .06em;
+    background: color-mix(in srgb, var(--bg) 45%, var(--card));
   }
-  .component { padding: 14px 20px; border-bottom: 1px solid var(--border); }
+  .component { padding: 15px 20px; border-bottom: 1px solid var(--border); }
   .component:last-child { border-bottom: none; }
   .component-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
-  .component-name { font-weight: 500; font-size: 15px; }
+  .dot {
+    width: 8px; height: 8px; border-radius: 50%; display: inline-block;
+    background: var(--green); margin-right: 2px; align-self: center;
+  }
+  .dot.d-degraded { background: var(--orange); }
+  .dot.d-down { background: var(--red); }
+  .component-name { font-weight: 550; font-size: 15px; }
   .component-name a { color: inherit; text-decoration: none; }
   .component-name a:hover { text-decoration: underline; }
   .component-meta { font-size: 12px; color: var(--text-muted); }
@@ -77,48 +113,27 @@
   .st-degraded { color: var(--orange); }
   .st-down { color: var(--red); }
 
-  .bars { display: flex; gap: 2px; margin-top: 10px; height: 28px; }
+  .bars { display: flex; gap: 2px; margin-top: 10px; height: 26px; }
   .bars span {
     flex: 1; border-radius: 2px; background: var(--green);
-    position: relative; cursor: default;
+    position: relative; cursor: default; transition: opacity .1s;
   }
+  .bars span:hover { opacity: .75; }
   .bars span.b-yellow { background: var(--yellow); }
   .bars span.b-orange { background: var(--orange); }
   .bars span.b-red { background: var(--red); }
   .bars span.b-empty { background: var(--gray); }
   .bars span:hover::after {
     content: attr(data-tip);
-    position: absolute; bottom: 34px; left: 50%; transform: translateX(-50%);
-    background: var(--text); color: var(--bg);
-    padding: 5px 9px; border-radius: 5px; font-size: 11px; white-space: nowrap;
-    z-index: 10; pointer-events: none;
+    position: absolute; bottom: 33px; left: 50%; transform: translateX(-50%);
+    background: var(--tip-bg); color: var(--tip-text);
+    padding: 5px 10px; border-radius: 6px; font-size: 11px; font-weight: 500; white-space: nowrap;
+    z-index: 10; pointer-events: none; box-shadow: var(--shadow);
   }
   .bars-legend {
-    display: flex; justify-content: space-between; margin-top: 6px;
+    display: flex; justify-content: space-between; margin-top: 7px;
     font-size: 11px; color: var(--text-muted);
   }
-
-  h2 { font-size: 17px; margin: 36px 0 14px; }
-  .incident-day { margin-bottom: 20px; }
-  .incident-date {
-    font-size: 13px; font-weight: 600; color: var(--text-muted);
-    border-bottom: 1px solid var(--border); padding-bottom: 6px; margin-bottom: 10px;
-  }
-  .incident {
-    background: var(--card); border: 1px solid var(--border);
-    border-left: 4px solid var(--gray); border-radius: 6px;
-    padding: 12px 16px; margin-bottom: 10px; font-size: 14px;
-  }
-  .incident.open { border-left-color: var(--red); }
-  .incident.closed { border-left-color: var(--green); }
-  .incident a { color: var(--link); text-decoration: none; font-weight: 500; }
-  .incident a:hover { text-decoration: underline; }
-  .incident .detail { font-size: 12px; color: var(--text-muted); margin-top: 3px; }
-  .updates { margin-top: 10px; border-top: 1px dashed var(--border); padding-top: 8px; }
-  .update { font-size: 13px; margin-bottom: 8px; }
-  .update:last-child { margin-bottom: 0; }
-  .update .update-meta { font-size: 11px; color: var(--text-muted); }
-  .update .update-body { margin-top: 2px; white-space: pre-wrap; }
   .none-msg { color: var(--text-muted); font-size: 14px; }
 
   footer {
@@ -127,6 +142,7 @@
     display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;
   }
   footer a { color: var(--link); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
@@ -134,45 +150,44 @@
   <header>
     <img src="https://navigator.trocdigital.io/static/icons/favicon.ico" alt="">
     <h1>Navigator Status</h1>
-    <div class="actions"><a href="https://github.com/Trocdigital/Navigator-uptime/issues" target="_blank" rel="noopener">Reportar incidente</a></div>
+    <div class="actions"><a href="https://github.com/Trocdigital/Navigator-uptime/issues" target="_blank" rel="noopener">Report an issue</a></div>
   </header>
 
-  <div id="banner" class="banner loading">Cargando estado de los servicios…</div>
+  <div id="banner" class="banner loading">Loading service status…</div>
+  <div id="incidents"></div>
   <div id="groups"></div>
 
-  <h2>Incidentes recientes</h2>
-  <div id="incidents"><p class="none-msg">Cargando…</p></div>
-
   <footer>
-    <span>Actualizado: <span id="updated">—</span> · se refresca cada 5 min</span>
-    <span>Datos de <a href="https://github.com/Trocdigital/Navigator-uptime" target="_blank" rel="noopener">Upptime</a> · <a href="./">vista clásica</a></span>
+    <span>Last updated: <span id="updated">—</span> · refreshes every 5 min</span>
+    <span>Powered by <a href="https://github.com/Trocdigital/Navigator-uptime" target="_blank" rel="noopener">Upptime</a> · <a href="./">classic view</a></span>
   </footer>
 </div>
 
 <script>
 const REPO = "Trocdigital/Navigator-uptime";
 const SUMMARY_URL = `https://raw.githubusercontent.com/${REPO}/master/history/summary.json`;
-const ISSUES_URL = `https://api.github.com/repos/${REPO}/issues?labels=status&state=all&per_page=30&sort=created&direction=desc`;
+// Only open issues: active incidents disappear from the page as soon as they are resolved
+const ISSUES_URL = `https://api.github.com/repos/${REPO}/issues?labels=status&state=open&per_page=20&sort=created&direction=desc`;
 const DAYS = 90;
 
-// Agrupación de componentes por slug. Un slug no listado cae en "Otros servicios".
+// Component grouping by slug. Any slug not listed falls into "Other Services".
 const GROUPS = [
   { title: "Navigator", slugs: [
     "navigator", "navigator-api", "navigator-api-ai",
     "navigator-frontend-service", "navigator-monitoring",
     "data-integrator-api-production-scheduler",
   ]},
-  { title: "Sistemas de tickets", slugs: [
+  { title: "Ticket Systems", slugs: [
     "ticket-system-zammad-trocglobal", "ticket-system-zammad-pokemon-trocglobal", "zammad-apple",
   ]},
-  { title: "ERP y CRM", slugs: [
+  { title: "ERP & CRM", slugs: [
     "troc-erp-odoo", "odoo-employee-hub", "odoo-roadshow",
     "crm-att-odoo", "epson-events-odoo", "ticket-system-odoo-polestar-crm",
   ]},
-  { title: "Otros servicios", slugs: [] },
+  { title: "Other Services", slugs: [] },
 ];
 
-const STATUS_LABEL = { up: "Operativo", degraded: "Degradado", down: "Caído" };
+const STATUS_LABEL = { up: "Operational", degraded: "Degraded", down: "Down" };
 
 function dayKey(d) { return d.toISOString().slice(0, 10); }
 
@@ -195,7 +210,12 @@ function barClass(minutes) {
 }
 
 function fmtDate(iso, opts) {
-  return new Date(iso).toLocaleDateString("es", opts || { day: "numeric", month: "short", year: "numeric" });
+  return new Date(iso).toLocaleDateString("en-US", opts || { day: "numeric", month: "short", year: "numeric" });
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
 function renderSite(site) {
@@ -206,22 +226,22 @@ function renderSite(site) {
     const min = downMap[day] || 0;
     totalDown += min;
     const tip = `${fmtDate(day + "T00:00:00Z", { day: "numeric", month: "short" })}: ` +
-      (min === 0 ? "sin incidentes" : `${min} min caído`);
+      (min === 0 ? "no incidents" : `${min} min down`);
     return `<span class="${barClass(min)}" data-tip="${tip}"></span>`;
   }).join("");
   const uptime90 = (100 * (1 - totalDown / (DAYS * 1440))).toFixed(2);
-  const stClass = "st-" + (site.status || "up");
-  const label = STATUS_LABEL[site.status] || site.status;
+  const st = site.status || "up";
   return `
     <div class="component">
       <div class="component-row">
-        <span class="component-name"><a href="./history/${site.slug}">${site.name}</a></span>
+        <span class="dot d-${st}"></span>
+        <span class="component-name"><a href="./history/${site.slug}">${escapeHtml(site.name)}</a></span>
         <span class="component-meta">${site.time} ms</span>
-        <span class="component-status ${stClass}">${label}</span>
+        <span class="component-status st-${st}">${STATUS_LABEL[st] || st}</span>
       </div>
       <div class="bars">${bars}</div>
       <div class="bars-legend">
-        <span>hace ${DAYS} días</span><span>${uptime90}% uptime</span><span>hoy</span>
+        <span>${DAYS} days ago</span><span>${uptime90}% uptime</span><span>Today</span>
       </div>
     </div>`;
 }
@@ -236,7 +256,7 @@ function renderGroups(sites) {
     if (!members.length) return "";
     const groupDown = members.some(s => s.status === "down");
     const groupDegraded = members.some(s => s.status === "degraded");
-    const gl = groupDown ? ["st-down", "Interrupción"] : groupDegraded ? ["st-degraded", "Degradado"] : ["st-up", "Operativo"];
+    const gl = groupDown ? ["st-down", "Outage"] : groupDegraded ? ["st-degraded", "Degraded"] : ["st-up", "Operational"];
     return `
       <div class="group">
         <div class="group-header"><span>${g.title}</span><span class="${gl[0]}">${gl[1]}</span></div>
@@ -252,23 +272,18 @@ function renderBanner(sites) {
   banner.classList.remove("loading", "ok", "warn", "down");
   if (down.length) {
     banner.classList.add("down");
-    banner.innerHTML = `Interrupción en curso: ${down.map(s => s.name).join(", ")}`;
+    banner.innerHTML = `Ongoing outage: ${down.map(s => escapeHtml(s.name)).join(", ")}`;
   } else if (degraded.length) {
     banner.classList.add("warn");
-    banner.innerHTML = `Rendimiento degradado: ${degraded.map(s => s.name).join(", ")}`;
+    banner.innerHTML = `Degraded performance: ${degraded.map(s => escapeHtml(s.name)).join(", ")}`;
   } else {
     banner.classList.add("ok");
-    banner.innerHTML = `Todos los sistemas operativos <small>${sites.length} servicios monitoreados</small>`;
+    banner.innerHTML = `All systems operational <small>${sites.length} services monitored</small>`;
   }
 }
 
-function escapeHtml(s) {
-  return String(s).replace(/[&<>"']/g, c =>
-    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-}
-
-// Caché de comentarios por issue: solo se vuelve a pedir al API si el contador de
-// comentarios del issue cambió, para no agotar el límite de 60 req/h sin autenticación.
+// Comment cache per issue: only re-fetched when the issue's comment count changes,
+// to stay well under GitHub's 60 unauthenticated requests/hour limit.
 const commentsCache = new Map();
 const MAX_COMMENT_FETCHES = 8;
 
@@ -280,7 +295,7 @@ async function getUpdates(incidents) {
     try {
       const res = await fetch(`https://api.github.com/repos/${REPO}/issues/${i.number}/comments?per_page=20`);
       if (res.ok) commentsCache.set(i.number, { count: i.comments, list: await res.json() });
-    } catch (e) { /* sin comentarios no se rompe la página */ }
+    } catch (e) { /* updates are optional; never break the page */ }
   }));
 }
 
@@ -289,53 +304,35 @@ function renderUpdates(issue) {
   if (!cached || !cached.list.length) return "";
   const items = [...cached.list].reverse().map(c => `
     <div class="update">
-      <div class="update-meta">${escapeHtml(c.user.login)} · ${fmtDate(c.created_at, { day: "numeric", month: "short" })}, ${new Date(c.created_at).toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" })}</div>
+      <div class="update-meta">${escapeHtml(c.user.login)} · ${fmtDate(c.created_at, { day: "numeric", month: "short" })}, ${new Date(c.created_at).toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit" })}</div>
       <div class="update-body">${escapeHtml(c.body)}</div>
     </div>`).join("");
   return `<div class="updates">${items}</div>`;
 }
 
-function fmtDuration(ms) {
+function fmtAgo(ms) {
   const min = Math.round(ms / 60000);
-  if (min < 60) return `${min} min`;
+  if (min < 60) return `${min} min ago`;
   const h = Math.floor(min / 60);
-  return h < 48 ? `${h} h ${min % 60} min` : `${Math.round(h / 24)} días`;
+  return h < 48 ? `${h} h ${min % 60} min ago` : `${Math.round(h / 24)} days ago`;
 }
 
 async function renderIncidents(issues) {
   const el = document.getElementById("incidents");
   const incidents = issues.filter(i => !i.pull_request);
-  if (!incidents.length) {
-    el.innerHTML = '<p class="none-msg">Sin incidentes registrados. 🎉</p>';
-    return;
-  }
+  if (!incidents.length) { el.innerHTML = ""; return; }
   await getUpdates(incidents);
-  const byDay = {};
-  for (const i of incidents) {
-    const day = fmtDate(i.created_at, { weekday: "long", day: "numeric", month: "long", year: "numeric" });
-    (byDay[day] = byDay[day] || []).push(i);
-  }
-  el.innerHTML = Object.entries(byDay).map(([day, list]) => `
-    <div class="incident-day">
-      <div class="incident-date">${day}</div>
-      ${list.map(i => {
-        const open = i.state === "open";
-        const duration = open
-          ? "en curso"
-          : "resuelto en " + fmtDuration(new Date(i.closed_at) - new Date(i.created_at));
-        return `
-          <div class="incident ${open ? "open" : "closed"}">
-            <a href="${i.html_url}" target="_blank" rel="noopener">${escapeHtml(i.title)}</a>
-            <div class="detail">${open ? "🔴" : "✅"} ${duration}</div>
-            ${renderUpdates(i)}
-          </div>`;
-      }).join("")}
+  el.innerHTML = incidents.map(i => `
+    <div class="incident">
+      <a href="${i.html_url}" target="_blank" rel="noopener">${escapeHtml(i.title)}</a>
+      <div class="detail">🔴 Started ${fmtAgo(Date.now() - new Date(i.created_at))}</div>
+      ${renderUpdates(i)}
     </div>`).join("");
 }
 
 async function load() {
   try {
-    const bust = Math.floor(Date.now() / 300000); // el mismo valor por 5 min para aprovechar caché
+    const bust = Math.floor(Date.now() / 300000); // same value for 5 min so the CDN cache is reused
     const [summaryRes, issuesRes] = await Promise.all([
       fetch(`${SUMMARY_URL}?v=${bust}`),
       fetch(ISSUES_URL),
@@ -344,16 +341,14 @@ async function load() {
     const sites = await summaryRes.json();
     renderBanner(sites);
     renderGroups(sites);
-    // El historial de incidentes es secundario: si el API de GitHub limita la tasa, no rompe la página
+    // Active incidents are secondary: a GitHub API rate limit must not break the page
     if (issuesRes.ok) await renderIncidents(await issuesRes.json());
-    else document.getElementById("incidents").innerHTML =
-      '<p class="none-msg">No se pudo cargar el historial (límite del API de GitHub). Intenta en unos minutos.</p>';
-    document.getElementById("updated").textContent = new Date().toLocaleTimeString("es");
+    document.getElementById("updated").textContent = new Date().toLocaleTimeString("en-US");
   } catch (e) {
     const banner = document.getElementById("banner");
     banner.classList.remove("loading", "ok", "warn");
     banner.classList.add("down");
-    banner.textContent = "No se pudo cargar el estado: " + e.message;
+    banner.textContent = "Could not load status: " + e.message;
   }
 }
 
