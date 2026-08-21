@@ -71,6 +71,13 @@
     padding: 14px 18px; margin-bottom: 10px; font-size: 14px;
     box-shadow: var(--shadow);
   }
+  .incident.minor { border-left-color: var(--yellow); }
+  .sev-badge {
+    display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .05em; padding: 2px 8px; border-radius: 999px; margin-right: 8px;
+    vertical-align: 2px; color: #fff; background: var(--red);
+  }
+  .incident.minor .sev-badge { background: var(--yellow); }
   .incident a { color: var(--link); text-decoration: none; font-weight: 600; }
   .incident a:hover { text-decoration: underline; }
   .incident .detail { font-size: 12px; color: var(--text-muted); margin-top: 3px; }
@@ -318,12 +325,17 @@ async function renderIncidents(issues) {
   const incidents = issues.filter(i => !i.pull_request);
   if (!incidents.length) { el.innerHTML = ""; return; }
   await getUpdates(incidents);
-  el.innerHTML = incidents.map(i => `
-    <div class="incident">
+  el.innerHTML = incidents.map(i => {
+    const labels = (i.labels || []).map(l => l.name);
+    const minor = labels.includes("minor") && !labels.includes("major");
+    return `
+    <div class="incident${minor ? " minor" : ""}">
+      <span class="sev-badge">${minor ? "Minor" : "Major"}</span>
       <a href="${i.html_url}" target="_blank" rel="noopener">${escapeHtml(i.title)}</a>
-      <div class="detail">🔴 Started ${fmtAgo(Date.now() - new Date(i.created_at))}</div>
+      <div class="detail">Started ${fmtAgo(Date.now() - new Date(i.created_at))}</div>
       ${renderUpdates(i)}
-    </div>`).join("");
+    </div>`;
+  }).join("");
 }
 
 async function load() {
