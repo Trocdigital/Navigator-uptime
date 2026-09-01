@@ -13,7 +13,7 @@
     "time": 309,
     "timeDay": 164,
     "timeWeek": 285,
-    "timeMonth": 287,
+    "timeMonth": 292,
     "timeYear": 303,
     "dailyMinutesDown": {
       "2026-08-10": 81
@@ -33,7 +33,7 @@
     "time": 327,
     "timeDay": 258,
     "timeWeek": 268,
-    "timeMonth": 274,
+    "timeMonth": 278,
     "timeYear": 307,
     "dailyMinutesDown": {
       "2025-09-29": 42,
@@ -55,7 +55,7 @@
     "time": 62,
     "timeDay": 86,
     "timeWeek": 147,
-    "timeMonth": 159,
+    "timeMonth": 162,
     "timeYear": 71,
     "dailyMinutesDown": {
       "2026-08-10": 72
@@ -75,7 +75,7 @@
     "time": 552,
     "timeDay": 446,
     "timeWeek": 571,
-    "timeMonth": 632,
+    "timeMonth": 635,
     "timeYear": 524,
     "dailyMinutesDown": {
       "2025-10-07": 41,
@@ -122,7 +122,7 @@
     "time": 358,
     "timeDay": 256,
     "timeWeek": 320,
-    "timeMonth": 329,
+    "timeMonth": 333,
     "timeYear": 349,
     "dailyMinutesDown": {
       "2026-01-22": 16,
@@ -168,7 +168,7 @@
     "time": 521,
     "timeDay": 711,
     "timeWeek": 627,
-    "timeMonth": 649,
+    "timeMonth": 662,
     "timeYear": 578,
     "dailyMinutesDown": {
       "2025-10-23": 19,
@@ -191,7 +191,7 @@
     "time": 450,
     "timeDay": 503,
     "timeWeek": 563,
-    "timeMonth": 607,
+    "timeMonth": 610,
     "timeYear": 481,
     "dailyMinutesDown": {
       "2025-12-07": 921,
@@ -213,7 +213,7 @@
     "time": 440,
     "timeDay": 127,
     "timeWeek": 206,
-    "timeMonth": 523,
+    "timeMonth": 528,
     "timeYear": 440,
     "dailyMinutesDown": {
       "2025-09-18": 16,
@@ -284,7 +284,7 @@
     "time": 283,
     "timeDay": 233,
     "timeWeek": 271,
-    "timeMonth": 297,
+    "timeMonth": 300,
     "timeYear": 283,
     "dailyMinutesDown": {
       "2026-02-16": 29,
@@ -308,7 +308,7 @@
     "time": 495,
     "timeDay": 255,
     "timeWeek": 541,
-    "timeMonth": 567,
+    "timeMonth": 570,
     "timeYear": 495,
     "dailyMinutesDown": {
       "2025-11-30": 50,
@@ -322,16 +322,16 @@
     "url": "https://data.trocdigital.io/ping",
     "icon": "https://icons.duckduckgo.com/ip3/data.trocdigital.io.ico",
     "slug": "data-integrator-api-production-scheduler",
-    "status": "down",
-    "uptime": "99.93%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "status": "up",
+    "uptime": "99.92%",
+    "uptimeDay": "98.64%",
+    "uptimeWeek": "99.81%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "99.92%",
     "time": 262,
-    "timeDay": 5202,
-    "timeWeek": 1505,
-    "timeMonth": 519,
+    "timeDay": 3574,
+    "timeWeek": 1373,
+    "timeMonth": 525,
     "timeYear": 262,
     "dailyMinutesDown": {
       "2025-10-07": 41,
@@ -340,7 +340,7 @@
       "2026-03-25": 126,
       "2026-06-26": 40,
       "2026-08-10": 28,
-      "2026-09-01": 1
+      "2026-09-01": 20
     }
   },
   {
@@ -357,7 +357,7 @@
     "time": 475,
     "timeDay": 507,
     "timeWeek": 553,
-    "timeMonth": 573,
+    "timeMonth": 577,
     "timeYear": 475,
     "dailyMinutesDown": {
       "2025-10-30": 15,
@@ -391,7 +391,7 @@
     "time": 452,
     "timeDay": 329,
     "timeWeek": 494,
-    "timeMonth": 650,
+    "timeMonth": 658,
     "timeYear": 452,
     "dailyMinutesDown": {
       "2026-01-16": 73,
@@ -415,7 +415,7 @@
     "time": 271,
     "timeDay": 288,
     "timeWeek": 276,
-    "timeMonth": 264,
+    "timeMonth": 263,
     "timeYear": 271,
     "dailyMinutesDown": {
       "2025-11-24": 889,
@@ -494,7 +494,7 @@
     "time": 170,
     "timeDay": 180,
     "timeWeek": 209,
-    "timeMonth": 184,
+    "timeMonth": 186,
     "timeYear": 170,
     "dailyMinutesDown": {
       "2025-09-15": 37,
