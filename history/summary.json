@@ -480,9 +480,9 @@
     "slug": "we-protec-u-production-global-leaks",
     "status": "down",
     "uptime": "99.29%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "97.80%",
+    "uptimeWeek": "99.69%",
+    "uptimeMonth": "99.93%",
     "uptimeYear": "99.27%",
     "time": 168,
     "timeDay": 145,
@@ -560,7 +560,7 @@
       "2026-08-06": 43,
       "2026-08-08": 24,
       "2026-08-09": 30,
-      "2026-10-13": 1
+      "2026-10-13": 32
     }
   }
 ]
