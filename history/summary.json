@@ -312,16 +312,16 @@
     "url": "https://data.trocdigital.io/ping",
     "icon": "https://icons.duckduckgo.com/ip3/data.trocdigital.io.ico",
     "slug": "data-integrator-api-production-scheduler",
-    "status": "down",
+    "status": "up",
     "uptime": "99.91%",
-    "uptimeDay": "89.91%",
-    "uptimeWeek": "98.56%",
-    "uptimeMonth": "99.67%",
-    "uptimeYear": "99.91%",
+    "uptimeDay": "88.02%",
+    "uptimeWeek": "98.29%",
+    "uptimeMonth": "99.61%",
+    "uptimeYear": "99.90%",
     "time": 257,
-    "timeDay": 196,
-    "timeWeek": 245,
-    "timeMonth": 236,
+    "timeDay": 214,
+    "timeWeek": 249,
+    "timeMonth": 237,
     "timeYear": 253,
     "dailyMinutesDown": {
       "2025-11-02": 79,
@@ -330,7 +330,7 @@
       "2026-06-26": 40,
       "2026-08-10": 28,
       "2026-09-01": 20,
-      "2026-11-01": 146
+      "2026-11-01": 173
     }
   },
   {
@@ -479,7 +479,7 @@
     "status": "up",
     "uptime": "96.19%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "98.63%",
+    "uptimeWeek": "98.91%",
     "uptimeMonth": "57.28%",
     "uptimeYear": "95.75%",
     "time": 167,
